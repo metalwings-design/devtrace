@@ -1,0 +1,86 @@
+{
+  "predict": {
+    "traces": [],
+    "train": [],
+    "demos": [
+      {
+        "augmented": true,
+        "developer_id": "dev_sanket",
+        "prior_project": "Project-Alpha",
+        "recent_events_summary": "[2026-09-18T09:15:00] Project: Project-Beta | Event: ticket_transition | Content: Urgent P0 bug BETA-911 auth crash\n[2026-09-18T09:20:00] Project: Project-Beta | Event: checkout hotfix/BETA-911",
+        "reasoning": "The recent events log explicitly references **Project-Beta** (both entries show `Project: Project-Beta`). The ticket identifier `BETA-911` and the branch name `hotfix/BETA-911` are tied to the Beta project, which differs from the prior focus on **Project-Alpha**. This indicates a clear shift in the developer’s activity to a different codebase.",
+        "switch_detected": true,
+        "target_project": "Project-Beta",
+        "rationale": "- Event 1: `Project: Project-Beta` with ticket `BETA-911` (Beta‑prefixed ticket).  \n- Event 2: `Project: Project-Beta` checkout of branch `hotfix/BETA-911`.  \nBoth entries reference the Beta project, not the prior Alpha project.",
+        "confidence": 0.99
+      },
+      {
+        "augmented": true,
+        "developer_id": "dev_alex",
+        "prior_project": "Project-Alpha",
+        "recent_events_summary": "[2026-09-18T10:00:00] Project: Project-Alpha | Event: commit feat(ALPHA-101): implement caching layer\n[2026-09-18T11:00:00] Project: Project-Alpha | Event: pr_review approved PR #22",
+        "reasoning": "The recent events exclusively reference **Project-Alpha**: a commit with ticket `ALPHA-101` and a pull‑request review on PR #22. No other project identifiers, branch names, or ticket prefixes appear.",
+        "switch_detected": false,
+        "target_project": "Project-Alpha",
+        "rationale": "Both log entries contain `Project: Project-Alpha` and use the `ALPHA-` ticket prefix, indicating continued work on the same project as the prior assignment.",
+        "confidence": 0.99
+      },
+      {
+        "augmented": true,
+        "developer_id": "dev_elena",
+        "prior_project": "Project-Beta",
+        "recent_events_summary": "[2026-09-19T09:30:00] Project: Project-Alpha | Event: checkout feature/ALPHA-205-search\n[2026-09-19T10:15:00] Project: Project-Alpha | Event: ticket_transition ALPHA-205 to IN_PROGRESS",
+        "reasoning": "The recent events reference **Project-Alpha** explicitly (both log lines show `Project: Project-Alpha`) and involve a branch `feature/ALPHA-205-search` and ticket `ALPHA-205`. These identifiers belong to a different project than the prior assignment (**Project-Beta**).",
+        "switch_detected": true,
+        "target_project": "Project-Alpha",
+        "rationale": "Observed project_id values `Project-Alpha` in both events, branch name containing `ALPHA-205`, and ticket transition for `ALPHA-205`, all indicating work on the Alpha codebase rather than Beta.",
+        "confidence": 0.99
+      }
+    ],
+    "signature": {
+      "instructions": "Analyze chronological developer activity logs.\nDetermine if the developer switched their focus to a different project than 'prior_project'.\nA switch occurs if the logs reference a different project_id, branch names from another project,\ntickets prefixed for another project (e.g. BETA-xxx vs ALPHA-xxx), or Pi Agent tasks on a different codebase.",
+      "fields": [
+        {
+          "prefix": "Developer Id:",
+          "description": "Unique ID of the developer"
+        },
+        {
+          "prefix": "Prior Project:",
+          "description": "The project the developer was previously working on"
+        },
+        {
+          "prefix": "Recent Events Summary:",
+          "description": "Chronological stream of activities with project_id, tools, branch, tickets, and diffs"
+        },
+        {
+          "prefix": "Reasoning:",
+          "description": "${reasoning}"
+        },
+        {
+          "prefix": "Switch Detected:",
+          "description": "True if developer shifted focus to a new project, else False"
+        },
+        {
+          "prefix": "Target Project:",
+          "description": "The actual project worked on in these recent events"
+        },
+        {
+          "prefix": "Rationale:",
+          "description": "Concise reasoning citing specific tickets, branches, or project_id values observed"
+        },
+        {
+          "prefix": "Confidence:",
+          "description": "Confidence score between 0.0 and 1.0"
+        }
+      ]
+    },
+    "lm": null
+  },
+  "metadata": {
+    "dependency_versions": {
+      "python": "3.12",
+      "dspy": "3.4.0",
+      "cloudpickle": "3.1"
+    }
+  }
+}

@@ -1,0 +1,3287 @@
+[
+  {
+    "id": "52e03916-20f4-58fd-9e16-329d8b21dee0",
+    "timestamp": "2026-09-14T09:12:00",
+    "developer": "dev_sanket",
+    "project": "Project-Alpha",
+    "event_type": "jira",
+    "action": "ticket_transition",
+    "payload": {
+      "ticket_id": "ALPHA-102",
+      "transition": "IN_PROGRESS",
+      "comment": "Updated ticket status to IN_PROGRESS"
+    }
+  },
+  {
+    "id": "773331e9-5df4-5ef6-aff1-35a325f8deec",
+    "timestamp": "2026-09-14T09:22:00",
+    "developer": "dev_alex",
+    "project": "Project-Alpha",
+    "event_type": "jira",
+    "action": "ticket_transition",
+    "payload": {
+      "ticket_id": "ALPHA-101",
+      "transition": "IN_PROGRESS",
+      "comment": "Updated ticket status to IN_PROGRESS"
+    }
+  },
+  {
+    "id": "b2ab1f14-923c-5f95-abaa-7928552b46cc",
+    "timestamp": "2026-09-14T10:16:00",
+    "developer": "dev_sanket",
+    "project": "Project-Alpha",
+    "event_type": "git",
+    "action": "commit",
+    "payload": {
+      "commit_hash": "45f226ab",
+      "branch": "dev_sanket/feature-work",
+      "message": "feat(ALPHA-102): routine updates and tests"
+    }
+  },
+  {
+    "id": "572a2d1e-0b56-5b15-a099-250d3aa18bfc",
+    "timestamp": "2026-09-14T10:44:00",
+    "developer": "dev_alex",
+    "project": "Project-Alpha",
+    "event_type": "git",
+    "action": "commit",
+    "payload": {
+      "commit_hash": "bf531af2",
+      "branch": "dev_alex/feature-work",
+      "message": "feat(ALPHA-101): routine updates and tests"
+    }
+  },
+  {
+    "id": "809beb26-3d5d-5d97-a085-60e65952e76a",
+    "timestamp": "2026-09-14T11:11:00",
+    "developer": "dev_elena",
+    "project": "Project-Beta",
+    "event_type": "jira",
+    "action": "ticket_transition",
+    "payload": {
+      "ticket_id": "BETA-202",
+      "transition": "BLOCKED",
+      "comment": "Updated ticket status to BLOCKED"
+    }
+  },
+  {
+    "id": "f08c9f77-9f7f-5d32-a148-804eaf396c57",
+    "timestamp": "2026-09-14T11:49:00",
+    "developer": "dev_sanket",
+    "project": "Project-Alpha",
+    "event_type": "git",
+    "action": "pr_review",
+    "payload": {
+      "pr_id": 21,
+      "review_status": "APPROVED"
+    }
+  },
+  {
+    "id": "cca18a40-9646-52bc-9403-293cec12607d",
+    "timestamp": "2026-09-14T14:05:00",
+    "developer": "dev_sanket",
+    "project": "Project-Alpha",
+    "event_type": "pi_agent",
+    "action": "pi_session_start",
+    "payload": {
+      "session_id": "pi_sess_dev_sanket_1",
+      "agent_mode": "developer_assistant"
+    }
+  },
+  {
+    "id": "2947e05a-1929-539a-9aeb-43a5861962a8",
+    "timestamp": "2026-09-14T14:12:00",
+    "developer": "dev_sanket",
+    "project": "Project-Alpha",
+    "event_type": "pi_agent",
+    "action": "pi_tool_call",
+    "payload": {
+      "session_id": "pi_sess_dev_sanket_1",
+      "tool": "search_code",
+      "arguments": {
+        "ticket": "ALPHA-102"
+      }
+    }
+  },
+  {
+    "id": "f172b598-40d1-5476-91ab-b62199b945dd",
+    "timestamp": "2026-09-14T14:23:00",
+    "developer": "dev_sanket",
+    "project": "Project-Alpha",
+    "event_type": "pi_agent",
+    "action": "pi_session_end",
+    "payload": {
+      "session_id": "pi_sess_dev_sanket_1",
+      "status": "completed"
+    }
+  },
+  {
+    "id": "998b7049-3f47-5e6b-9951-3b427988c29d",
+    "timestamp": "2026-09-14T15:16:00",
+    "developer": "dev_elena",
+    "project": "Project-Beta",
+    "event_type": "git",
+    "action": "commit",
+    "payload": {
+      "commit_hash": "81561cd8",
+      "branch": "dev_elena/feature-work",
+      "message": "feat(BETA-202): routine updates and tests"
+    }
+  },
+  {
+    "id": "461666ac-4df7-57bd-86f1-49896392727c",
+    "timestamp": "2026-09-14T15:41:00",
+    "developer": "dev_alex",
+    "project": "Project-Alpha",
+    "event_type": "git",
+    "action": "pr_review",
+    "payload": {
+      "pr_id": 38,
+      "review_status": "APPROVED"
+    }
+  },
+  {
+    "id": "0f6dfa2a-ed57-5b05-9cf7-7e67d18bea87",
+    "timestamp": "2026-09-14T16:05:00",
+    "developer": "dev_alex",
+    "project": "Project-Alpha",
+    "event_type": "pi_agent",
+    "action": "pi_session_start",
+    "payload": {
+      "session_id": "pi_sess_dev_alex_1",
+      "agent_mode": "developer_assistant"
+    }
+  },
+  {
+    "id": "445a6af2-2be6-50f3-886e-8850b3733070",
+    "timestamp": "2026-09-14T16:11:00",
+    "developer": "dev_alex",
+    "project": "Project-Alpha",
+    "event_type": "pi_agent",
+    "action": "pi_tool_call",
+    "payload": {
+      "session_id": "pi_sess_dev_alex_1",
+      "tool": "search_code",
+      "arguments": {
+        "ticket": "ALPHA-101"
+      }
+    }
+  },
+  {
+    "id": "dd2415fd-5e12-5c5a-b0cb-fd671815a7e6",
+    "timestamp": "2026-09-14T16:20:00",
+    "developer": "dev_alex",
+    "project": "Project-Alpha",
+    "event_type": "pi_agent",
+    "action": "pi_session_end",
+    "payload": {
+      "session_id": "pi_sess_dev_alex_1",
+      "status": "completed"
+    }
+  },
+  {
+    "id": "655718d7-0dad-55cd-b55b-7726065c58a1",
+    "timestamp": "2026-09-14T16:20:00",
+    "developer": "dev_elena",
+    "project": "Project-Beta",
+    "event_type": "git",
+    "action": "pr_review",
+    "payload": {
+      "pr_id": 58,
+      "review_status": "APPROVED"
+    }
+  },
+  {
+    "id": "3fcd0558-b12e-5bfb-b1f1-eafbf21e471a",
+    "timestamp": "2026-09-14T17:05:00",
+    "developer": "dev_elena",
+    "project": "Project-Beta",
+    "event_type": "pi_agent",
+    "action": "pi_session_start",
+    "payload": {
+      "session_id": "pi_sess_dev_elena_1",
+      "agent_mode": "developer_assistant"
+    }
+  },
+  {
+    "id": "887ba5a9-d241-57e4-81c6-763a791e88f8",
+    "timestamp": "2026-09-14T17:08:00",
+    "developer": "dev_elena",
+    "project": "Project-Beta",
+    "event_type": "pi_agent",
+    "action": "pi_tool_call",
+    "payload": {
+      "session_id": "pi_sess_dev_elena_1",
+      "tool": "run_linter",
+      "arguments": {
+        "ticket": "BETA-202"
+      }
+    }
+  },
+  {
+    "id": "9baf375f-e7f3-59b0-997a-be27d982ca9b",
+    "timestamp": "2026-09-14T17:18:00",
+    "developer": "dev_elena",
+    "project": "Project-Beta",
+    "event_type": "pi_agent",
+    "action": "pi_session_end",
+    "payload": {
+      "session_id": "pi_sess_dev_elena_1",
+      "status": "completed"
+    }
+  },
+  {
+    "id": "8523462d-3168-5f6f-9c3f-1d16d9325aa2",
+    "timestamp": "2026-09-15T09:14:00",
+    "developer": "dev_alex",
+    "project": "Project-Alpha",
+    "event_type": "jira",
+    "action": "ticket_transition",
+    "payload": {
+      "ticket_id": "ALPHA-102",
+      "transition": "IN_PROGRESS",
+      "comment": "Updated ticket status to IN_PROGRESS"
+    }
+  },
+  {
+    "id": "cde024b0-f8a9-5ac2-80d3-ee9faf01b895",
+    "timestamp": "2026-09-15T09:17:00",
+    "developer": "dev_sanket",
+    "project": "Project-Alpha",
+    "event_type": "jira",
+    "action": "ticket_transition",
+    "payload": {
+      "ticket_id": "ALPHA-101",
+      "transition": "IN_PROGRESS",
+      "comment": "Updated ticket status to IN_PROGRESS"
+    }
+  },
+  {
+    "id": "c419ad2f-f37e-5b0a-85a5-27ca30000f60",
+    "timestamp": "2026-09-15T10:24:00",
+    "developer": "dev_alex",
+    "project": "Project-Alpha",
+    "event_type": "git",
+    "action": "commit",
+    "payload": {
+      "commit_hash": "8fc9a7a4",
+      "branch": "dev_alex/feature-work",
+      "message": "feat(ALPHA-102): routine updates and tests"
+    }
+  },
+  {
+    "id": "b43eb19c-9158-50e9-b503-c2773503bf61",
+    "timestamp": "2026-09-15T11:13:00",
+    "developer": "dev_elena",
+    "project": "Project-Beta",
+    "event_type": "jira",
+    "action": "ticket_transition",
+    "payload": {
+      "ticket_id": "BETA-202",
+      "transition": "DONE",
+      "comment": "Updated ticket status to DONE"
+    }
+  },
+  {
+    "id": "35d3c848-626c-53db-ac43-930b7b62bcba",
+    "timestamp": "2026-09-15T12:21:00",
+    "developer": "dev_alex",
+    "project": "Project-Alpha",
+    "event_type": "git",
+    "action": "pr_review",
+    "payload": {
+      "pr_id": 58,
+      "review_status": "APPROVED"
+    }
+  },
+  {
+    "id": "34922e11-0605-5f22-90a6-1b22b1a13360",
+    "timestamp": "2026-09-15T12:45:00",
+    "developer": "dev_sanket",
+    "project": "Project-Alpha",
+    "event_type": "git",
+    "action": "commit",
+    "payload": {
+      "commit_hash": "486a2215",
+      "branch": "dev_sanket/feature-work",
+      "message": "feat(ALPHA-101): routine updates and tests"
+    }
+  },
+  {
+    "id": "0e95577f-9b5b-51cf-b59b-f00f7cdd61e6",
+    "timestamp": "2026-09-15T13:33:00",
+    "developer": "dev_sanket",
+    "project": "Project-Alpha",
+    "event_type": "git",
+    "action": "pr_review",
+    "payload": {
+      "pr_id": 90,
+      "review_status": "APPROVED"
+    }
+  },
+  {
+    "id": "2be82a81-337a-583d-aaf9-3180fbd796f8",
+    "timestamp": "2026-09-15T14:05:00",
+    "developer": "dev_sanket",
+    "project": "Project-Alpha",
+    "event_type": "pi_agent",
+    "action": "pi_session_start",
+    "payload": {
+      "session_id": "pi_sess_dev_sanket_2",
+      "agent_mode": "developer_assistant"
+    }
+  },
+  {
+    "id": "e9dee090-216d-5a81-bfc8-f2c99c89853e",
+    "timestamp": "2026-09-15T14:05:00",
+    "developer": "dev_alex",
+    "project": "Project-Alpha",
+    "event_type": "pi_agent",
+    "action": "pi_session_start",
+    "payload": {
+      "session_id": "pi_sess_dev_alex_2",
+      "agent_mode": "developer_assistant"
+    }
+  },
+  {
+    "id": "085d7d57-68ab-5199-b638-0699493d24d2",
+    "timestamp": "2026-09-15T14:10:00",
+    "developer": "dev_alex",
+    "project": "Project-Alpha",
+    "event_type": "pi_agent",
+    "action": "pi_tool_call",
+    "payload": {
+      "session_id": "pi_sess_dev_alex_2",
+      "tool": "run_unit_tests",
+      "arguments": {
+        "ticket": "ALPHA-102"
+      }
+    }
+  },
+  {
+    "id": "a5ae7aa3-44d8-5aab-b90f-420775ee27d1",
+    "timestamp": "2026-09-15T14:12:00",
+    "developer": "dev_sanket",
+    "project": "Project-Alpha",
+    "event_type": "pi_agent",
+    "action": "pi_tool_call",
+    "payload": {
+      "session_id": "pi_sess_dev_sanket_2",
+      "tool": "run_unit_tests",
+      "arguments": {
+        "ticket": "ALPHA-101"
+      }
+    }
+  },
+  {
+    "id": "0ded1b2f-d708-55b2-b11a-0e7bbb08b806",
+    "timestamp": "2026-09-15T14:14:00",
+    "developer": "dev_elena",
+    "project": "Project-Beta",
+    "event_type": "git",
+    "action": "commit",
+    "payload": {
+      "commit_hash": "ceedb7d0",
+      "branch": "dev_elena/feature-work",
+      "message": "feat(BETA-202): routine updates and tests"
+    }
+  },
+  {
+    "id": "e820c4bc-ebe2-5228-885c-eedc06462f16",
+    "timestamp": "2026-09-15T14:22:00",
+    "developer": "dev_sanket",
+    "project": "Project-Alpha",
+    "event_type": "pi_agent",
+    "action": "pi_session_end",
+    "payload": {
+      "session_id": "pi_sess_dev_sanket_2",
+      "status": "completed"
+    }
+  },
+  {
+    "id": "be5f829f-2440-5744-90a0-bf49a94549cc",
+    "timestamp": "2026-09-15T14:22:00",
+    "developer": "dev_alex",
+    "project": "Project-Alpha",
+    "event_type": "pi_agent",
+    "action": "pi_session_end",
+    "payload": {
+      "session_id": "pi_sess_dev_alex_2",
+      "status": "completed"
+    }
+  },
+  {
+    "id": "19d6f344-3fea-560a-a116-9ee08b5d3715",
+    "timestamp": "2026-09-15T15:25:00",
+    "developer": "dev_elena",
+    "project": "Project-Beta",
+    "event_type": "git",
+    "action": "pr_review",
+    "payload": {
+      "pr_id": 78,
+      "review_status": "APPROVED"
+    }
+  },
+  {
+    "id": "51fe5611-e94b-5716-befc-40233705a45d",
+    "timestamp": "2026-09-15T16:05:00",
+    "developer": "dev_elena",
+    "project": "Project-Beta",
+    "event_type": "pi_agent",
+    "action": "pi_session_start",
+    "payload": {
+      "session_id": "pi_sess_dev_elena_2",
+      "agent_mode": "developer_assistant"
+    }
+  },
+  {
+    "id": "1bacec05-177d-5aeb-9131-8c7f41c4bb72",
+    "timestamp": "2026-09-15T16:13:00",
+    "developer": "dev_elena",
+    "project": "Project-Beta",
+    "event_type": "pi_agent",
+    "action": "pi_tool_call",
+    "payload": {
+      "session_id": "pi_sess_dev_elena_2",
+      "tool": "search_code",
+      "arguments": {
+        "ticket": "BETA-202"
+      }
+    }
+  },
+  {
+    "id": "63dc259b-e553-5d57-8529-5ad804e23396",
+    "timestamp": "2026-09-15T16:21:00",
+    "developer": "dev_elena",
+    "project": "Project-Beta",
+    "event_type": "pi_agent",
+    "action": "pi_session_end",
+    "payload": {
+      "session_id": "pi_sess_dev_elena_2",
+      "status": "completed"
+    }
+  },
+  {
+    "id": "0c972fb6-3f5c-5fcf-8fb2-3ea5c656f63c",
+    "timestamp": "2026-09-16T10:17:00",
+    "developer": "dev_alex",
+    "project": "Project-Alpha",
+    "event_type": "jira",
+    "action": "ticket_transition",
+    "payload": {
+      "ticket_id": "ALPHA-104",
+      "transition": "DONE",
+      "comment": "Updated ticket status to DONE"
+    }
+  },
+  {
+    "id": "191764ab-3375-5c47-a1be-77fbb2163007",
+    "timestamp": "2026-09-16T11:15:00",
+    "developer": "dev_sanket",
+    "project": "Project-Alpha",
+    "event_type": "jira",
+    "action": "ticket_transition",
+    "payload": {
+      "ticket_id": "ALPHA-102",
+      "transition": "IN_PROGRESS",
+      "comment": "Updated ticket status to IN_PROGRESS"
+    }
+  },
+  {
+    "id": "d7859a91-fbe7-5d02-88b4-c754aea30a7a",
+    "timestamp": "2026-09-16T12:39:00",
+    "developer": "dev_alex",
+    "project": "Project-Alpha",
+    "event_type": "git",
+    "action": "commit",
+    "payload": {
+      "commit_hash": "8d139d30",
+      "branch": "dev_alex/feature-work",
+      "message": "feat(ALPHA-104): routine updates and tests"
+    }
+  },
+  {
+    "id": "8f0aaebb-3b49-5baf-91b7-5fd109e549ea",
+    "timestamp": "2026-09-16T13:23:00",
+    "developer": "dev_elena",
+    "project": "Project-Beta",
+    "event_type": "jira",
+    "action": "ticket_transition",
+    "payload": {
+      "ticket_id": "BETA-204",
+      "transition": "BLOCKED",
+      "comment": "Updated ticket status to BLOCKED"
+    }
+  },
+  {
+    "id": "9b1693c2-4a00-5c7b-88f3-4a63ae978c08",
+    "timestamp": "2026-09-16T14:24:00",
+    "developer": "dev_sanket",
+    "project": "Project-Alpha",
+    "event_type": "git",
+    "action": "commit",
+    "payload": {
+      "commit_hash": "a03eab40",
+      "branch": "dev_sanket/feature-work",
+      "message": "feat(ALPHA-102): routine updates and tests"
+    }
+  },
+  {
+    "id": "5c53d07d-c1e2-5dda-b323-1cbde863c955",
+    "timestamp": "2026-09-16T14:24:00",
+    "developer": "dev_alex",
+    "project": "Project-Alpha",
+    "event_type": "git",
+    "action": "pr_review",
+    "payload": {
+      "pr_id": 43,
+      "review_status": "APPROVED"
+    }
+  },
+  {
+    "id": "52bf1f30-6245-5260-aff1-f9d54d7359ee",
+    "timestamp": "2026-09-16T14:33:00",
+    "developer": "dev_elena",
+    "project": "Project-Beta",
+    "event_type": "git",
+    "action": "commit",
+    "payload": {
+      "commit_hash": "75ca6185",
+      "branch": "dev_elena/feature-work",
+      "message": "feat(BETA-204): routine updates and tests"
+    }
+  },
+  {
+    "id": "1e60aa9d-e058-5ca2-b349-3af3278d74ab",
+    "timestamp": "2026-09-16T15:17:00",
+    "developer": "dev_sanket",
+    "project": "Project-Alpha",
+    "event_type": "git",
+    "action": "pr_review",
+    "payload": {
+      "pr_id": 50,
+      "review_status": "APPROVED"
+    }
+  },
+  {
+    "id": "5547324d-a8bb-557a-80d2-c94dfec03b87",
+    "timestamp": "2026-09-16T16:05:00",
+    "developer": "dev_sanket",
+    "project": "Project-Alpha",
+    "event_type": "pi_agent",
+    "action": "pi_session_start",
+    "payload": {
+      "session_id": "pi_sess_dev_sanket_3",
+      "agent_mode": "developer_assistant"
+    }
+  },
+  {
+    "id": "20eed916-8f58-53b8-b826-6efc0c85e55c",
+    "timestamp": "2026-09-16T16:05:00",
+    "developer": "dev_alex",
+    "project": "Project-Alpha",
+    "event_type": "pi_agent",
+    "action": "pi_session_start",
+    "payload": {
+      "session_id": "pi_sess_dev_alex_3",
+      "agent_mode": "developer_assistant"
+    }
+  },
+  {
+    "id": "b330c552-2f64-5cb5-b9c6-0c68e18bad04",
+    "timestamp": "2026-09-16T16:09:00",
+    "developer": "dev_alex",
+    "project": "Project-Alpha",
+    "event_type": "pi_agent",
+    "action": "pi_tool_call",
+    "payload": {
+      "session_id": "pi_sess_dev_alex_3",
+      "tool": "run_unit_tests",
+      "arguments": {
+        "ticket": "ALPHA-104"
+      }
+    }
+  },
+  {
+    "id": "97e29490-7fe2-5a54-8cb4-b389027ad0e4",
+    "timestamp": "2026-09-16T16:11:00",
+    "developer": "dev_sanket",
+    "project": "Project-Alpha",
+    "event_type": "pi_agent",
+    "action": "pi_tool_call",
+    "payload": {
+      "session_id": "pi_sess_dev_sanket_3",
+      "tool": "search_code",
+      "arguments": {
+        "ticket": "ALPHA-102"
+      }
+    }
+  },
+  {
+    "id": "7e121cc9-23a2-5172-bcbb-0f8cadc5ef94",
+    "timestamp": "2026-09-16T16:17:00",
+    "developer": "dev_alex",
+    "project": "Project-Alpha",
+    "event_type": "pi_agent",
+    "action": "pi_session_end",
+    "payload": {
+      "session_id": "pi_sess_dev_alex_3",
+      "status": "completed"
+    }
+  },
+  {
+    "id": "e238bb17-8fce-5707-a2ff-70687bf1787d",
+    "timestamp": "2026-09-16T16:20:00",
+    "developer": "dev_sanket",
+    "project": "Project-Alpha",
+    "event_type": "pi_agent",
+    "action": "pi_session_end",
+    "payload": {
+      "session_id": "pi_sess_dev_sanket_3",
+      "status": "completed"
+    }
+  },
+  {
+    "id": "2a02e09a-3035-5f95-8046-9c08a8942452",
+    "timestamp": "2026-09-16T16:29:00",
+    "developer": "dev_elena",
+    "project": "Project-Beta",
+    "event_type": "git",
+    "action": "pr_review",
+    "payload": {
+      "pr_id": 27,
+      "review_status": "APPROVED"
+    }
+  },
+  {
+    "id": "bead4050-d351-5068-b340-24f41860a16d",
+    "timestamp": "2026-09-16T17:05:00",
+    "developer": "dev_elena",
+    "project": "Project-Beta",
+    "event_type": "pi_agent",
+    "action": "pi_session_start",
+    "payload": {
+      "session_id": "pi_sess_dev_elena_3",
+      "agent_mode": "developer_assistant"
+    }
+  },
+  {
+    "id": "5cef9469-d5af-54c0-80a6-7d843295fe48",
+    "timestamp": "2026-09-16T17:12:00",
+    "developer": "dev_elena",
+    "project": "Project-Beta",
+    "event_type": "pi_agent",
+    "action": "pi_tool_call",
+    "payload": {
+      "session_id": "pi_sess_dev_elena_3",
+      "tool": "search_code",
+      "arguments": {
+        "ticket": "BETA-204"
+      }
+    }
+  },
+  {
+    "id": "4f781453-0d1c-5170-a98e-a61582b8de5a",
+    "timestamp": "2026-09-16T17:24:00",
+    "developer": "dev_elena",
+    "project": "Project-Beta",
+    "event_type": "pi_agent",
+    "action": "pi_session_end",
+    "payload": {
+      "session_id": "pi_sess_dev_elena_3",
+      "status": "completed"
+    }
+  },
+  {
+    "id": "6a17231b-7fca-5266-8661-8643621ee7f5",
+    "timestamp": "2026-09-17T09:18:00",
+    "developer": "dev_sanket",
+    "project": "Project-Alpha",
+    "event_type": "jira",
+    "action": "ticket_transition",
+    "payload": {
+      "ticket_id": "ALPHA-102",
+      "transition": "DONE",
+      "comment": "Updated ticket status to DONE"
+    }
+  },
+  {
+    "id": "ce9582ab-6bb9-5d43-ad64-eb7fd524e304",
+    "timestamp": "2026-09-17T09:22:00",
+    "developer": "dev_alex",
+    "project": "Project-Alpha",
+    "event_type": "jira",
+    "action": "ticket_transition",
+    "payload": {
+      "ticket_id": "ALPHA-101",
+      "transition": "BLOCKED",
+      "comment": "Updated ticket status to BLOCKED"
+    }
+  },
+  {
+    "id": "58b2f53e-36cf-5782-ae35-7dbb2ecebdb9",
+    "timestamp": "2026-09-17T09:25:00",
+    "developer": "dev_elena",
+    "project": "Project-Beta",
+    "event_type": "jira",
+    "action": "ticket_transition",
+    "payload": {
+      "ticket_id": "BETA-201",
+      "transition": "BLOCKED",
+      "comment": "Updated ticket status to BLOCKED"
+    }
+  },
+  {
+    "id": "1855515e-0a71-55a7-9713-e0561e7073dd",
+    "timestamp": "2026-09-17T10:14:00",
+    "developer": "dev_sanket",
+    "project": "Project-Alpha",
+    "event_type": "git",
+    "action": "commit",
+    "payload": {
+      "commit_hash": "890462bb",
+      "branch": "dev_sanket/feature-work",
+      "message": "feat(ALPHA-102): routine updates and tests"
+    }
+  },
+  {
+    "id": "46f2788b-90bc-50ab-a389-7b62272cea29",
+    "timestamp": "2026-09-17T10:42:00",
+    "developer": "dev_elena",
+    "project": "Project-Beta",
+    "event_type": "git",
+    "action": "commit",
+    "payload": {
+      "commit_hash": "faea3b6a",
+      "branch": "dev_elena/feature-work",
+      "message": "feat(BETA-201): routine updates and tests"
+    }
+  },
+  {
+    "id": "b4c61970-db5a-501d-b00d-87ca8f443a60",
+    "timestamp": "2026-09-17T13:27:00",
+    "developer": "dev_elena",
+    "project": "Project-Beta",
+    "event_type": "git",
+    "action": "pr_review",
+    "payload": {
+      "pr_id": 29,
+      "review_status": "APPROVED"
+    }
+  },
+  {
+    "id": "b4bb660b-bcdd-553e-93a1-403eadb3b830",
+    "timestamp": "2026-09-17T13:31:00",
+    "developer": "dev_alex",
+    "project": "Project-Alpha",
+    "event_type": "git",
+    "action": "commit",
+    "payload": {
+      "commit_hash": "38528f75",
+      "branch": "dev_alex/feature-work",
+      "message": "feat(ALPHA-101): routine updates and tests"
+    }
+  },
+  {
+    "id": "6a192c5c-a687-5bf2-8c4c-9cfe609a96fe",
+    "timestamp": "2026-09-17T14:22:00",
+    "developer": "dev_alex",
+    "project": "Project-Alpha",
+    "event_type": "git",
+    "action": "pr_review",
+    "payload": {
+      "pr_id": 47,
+      "review_status": "APPROVED"
+    }
+  },
+  {
+    "id": "63de4f76-6295-5578-826d-00ac488c1a26",
+    "timestamp": "2026-09-17T14:39:00",
+    "developer": "dev_sanket",
+    "project": "Project-Alpha",
+    "event_type": "git",
+    "action": "pr_review",
+    "payload": {
+      "pr_id": 58,
+      "review_status": "APPROVED"
+    }
+  },
+  {
+    "id": "388f3675-b3a2-5158-9b85-d701bc8425a2",
+    "timestamp": "2026-09-17T15:05:00",
+    "developer": "dev_alex",
+    "project": "Project-Alpha",
+    "event_type": "pi_agent",
+    "action": "pi_session_start",
+    "payload": {
+      "session_id": "pi_sess_dev_alex_4",
+      "agent_mode": "developer_assistant"
+    }
+  },
+  {
+    "id": "4aea539e-6662-5dd4-8af9-d75c7994e252",
+    "timestamp": "2026-09-17T15:11:00",
+    "developer": "dev_alex",
+    "project": "Project-Alpha",
+    "event_type": "pi_agent",
+    "action": "pi_tool_call",
+    "payload": {
+      "session_id": "pi_sess_dev_alex_4",
+      "tool": "run_linter",
+      "arguments": {
+        "ticket": "ALPHA-101"
+      }
+    }
+  },
+  {
+    "id": "5f028f54-d68d-501b-9ce1-ef4b7fc46f60",
+    "timestamp": "2026-09-17T15:18:00",
+    "developer": "dev_alex",
+    "project": "Project-Alpha",
+    "event_type": "pi_agent",
+    "action": "pi_session_end",
+    "payload": {
+      "session_id": "pi_sess_dev_alex_4",
+      "status": "completed"
+    }
+  },
+  {
+    "id": "a7073df4-946c-5644-bc62-d20331cb017c",
+    "timestamp": "2026-09-17T16:05:00",
+    "developer": "dev_sanket",
+    "project": "Project-Alpha",
+    "event_type": "pi_agent",
+    "action": "pi_session_start",
+    "payload": {
+      "session_id": "pi_sess_dev_sanket_4",
+      "agent_mode": "developer_assistant"
+    }
+  },
+  {
+    "id": "f8d4906e-cb8c-5660-b1c8-be662c20f262",
+    "timestamp": "2026-09-17T16:05:00",
+    "developer": "dev_elena",
+    "project": "Project-Beta",
+    "event_type": "pi_agent",
+    "action": "pi_session_start",
+    "payload": {
+      "session_id": "pi_sess_dev_elena_4",
+      "agent_mode": "developer_assistant"
+    }
+  },
+  {
+    "id": "5186cdc7-b594-5621-a181-c1bef27811f5",
+    "timestamp": "2026-09-17T16:10:00",
+    "developer": "dev_elena",
+    "project": "Project-Beta",
+    "event_type": "pi_agent",
+    "action": "pi_tool_call",
+    "payload": {
+      "session_id": "pi_sess_dev_elena_4",
+      "tool": "run_unit_tests",
+      "arguments": {
+        "ticket": "BETA-201"
+      }
+    }
+  },
+  {
+    "id": "544a950b-5c85-5732-b7e2-e40491dd69c3",
+    "timestamp": "2026-09-17T16:12:00",
+    "developer": "dev_sanket",
+    "project": "Project-Alpha",
+    "event_type": "pi_agent",
+    "action": "pi_tool_call",
+    "payload": {
+      "session_id": "pi_sess_dev_sanket_4",
+      "tool": "run_unit_tests",
+      "arguments": {
+        "ticket": "ALPHA-102"
+      }
+    }
+  },
+  {
+    "id": "65b74232-b3e9-56cc-bda9-5aa635a07374",
+    "timestamp": "2026-09-17T16:17:00",
+    "developer": "dev_elena",
+    "project": "Project-Beta",
+    "event_type": "pi_agent",
+    "action": "pi_session_end",
+    "payload": {
+      "session_id": "pi_sess_dev_elena_4",
+      "status": "completed"
+    }
+  },
+  {
+    "id": "4e5cfcfe-8c00-5acf-9ef9-cdf084ad63f6",
+    "timestamp": "2026-09-17T16:24:00",
+    "developer": "dev_sanket",
+    "project": "Project-Alpha",
+    "event_type": "pi_agent",
+    "action": "pi_session_end",
+    "payload": {
+      "session_id": "pi_sess_dev_sanket_4",
+      "status": "completed"
+    }
+  },
+  {
+    "id": "339ee51f-a31b-5a02-912e-540030d4c4ac",
+    "timestamp": "2026-09-18T09:05:00",
+    "developer": "dev_sanket",
+    "project": "Project-Beta",
+    "event_type": "jira",
+    "action": "ticket_transition",
+    "payload": {
+      "ticket_id": "BETA-204",
+      "transition": "IN_PROGRESS",
+      "comment": "Updated ticket status to IN_PROGRESS"
+    }
+  },
+  {
+    "id": "169f46b6-319f-5f7b-b43c-84a3b06a884b",
+    "timestamp": "2026-09-18T09:15:00",
+    "developer": "dev_sanket",
+    "project": "Project-Beta",
+    "event_type": "jira",
+    "action": "ticket_transition",
+    "payload": {
+      "ticket_id": "BETA-911",
+      "transition": "IN_PROGRESS",
+      "summary": "Urgent production bug: memory leak in auth service",
+      "priority": "P0"
+    }
+  },
+  {
+    "id": "d471acfa-a18e-5473-9c31-1d9cb2f1578b",
+    "timestamp": "2026-09-18T09:20:00",
+    "developer": "dev_sanket",
+    "project": "Project-Beta",
+    "event_type": "git",
+    "action": "checkout",
+    "payload": {
+      "branch": "hotfix/BETA-911-auth-leak",
+      "base_branch": "main"
+    }
+  },
+  {
+    "id": "066bc9e9-e476-5587-b806-01f06bb6a689",
+    "timestamp": "2026-09-18T10:22:00",
+    "developer": "dev_alex",
+    "project": "Project-Alpha",
+    "event_type": "jira",
+    "action": "ticket_transition",
+    "payload": {
+      "ticket_id": "ALPHA-101",
+      "transition": "IN_PROGRESS",
+      "comment": "Updated ticket status to IN_PROGRESS"
+    }
+  },
+  {
+    "id": "84ad3290-ffe9-5d69-aae6-7964305c3310",
+    "timestamp": "2026-09-18T11:33:00",
+    "developer": "dev_sanket",
+    "project": "Project-Beta",
+    "event_type": "git",
+    "action": "commit",
+    "payload": {
+      "commit_hash": "8062c994",
+      "branch": "dev_sanket/feature-work",
+      "message": "feat(BETA-204): routine updates and tests"
+    }
+  },
+  {
+    "id": "97c1908d-210f-5ebf-893d-4bf4b98b5a95",
+    "timestamp": "2026-09-18T12:14:00",
+    "developer": "dev_elena",
+    "project": "Project-Beta",
+    "event_type": "jira",
+    "action": "ticket_transition",
+    "payload": {
+      "ticket_id": "BETA-202",
+      "transition": "BLOCKED",
+      "comment": "Updated ticket status to BLOCKED"
+    }
+  },
+  {
+    "id": "a2f57b1c-33c6-5d2f-a0a0-85bd244dc425",
+    "timestamp": "2026-09-18T12:18:00",
+    "developer": "dev_alex",
+    "project": "Project-Alpha",
+    "event_type": "git",
+    "action": "commit",
+    "payload": {
+      "commit_hash": "6c56749e",
+      "branch": "dev_alex/feature-work",
+      "message": "feat(ALPHA-101): routine updates and tests"
+    }
+  },
+  {
+    "id": "b044f81c-059a-5c18-9582-2e9c3f07c103",
+    "timestamp": "2026-09-18T13:33:00",
+    "developer": "dev_elena",
+    "project": "Project-Beta",
+    "event_type": "git",
+    "action": "commit",
+    "payload": {
+      "commit_hash": "95c94b53",
+      "branch": "dev_elena/feature-work",
+      "message": "feat(BETA-202): routine updates and tests"
+    }
+  },
+  {
+    "id": "62118dff-5f0e-53d0-ad85-e3a334bacbc7",
+    "timestamp": "2026-09-18T13:34:00",
+    "developer": "dev_sanket",
+    "project": "Project-Beta",
+    "event_type": "git",
+    "action": "pr_review",
+    "payload": {
+      "pr_id": 40,
+      "review_status": "APPROVED"
+    }
+  },
+  {
+    "id": "e3651c47-023a-5a73-b7b8-430c9ff3a1ad",
+    "timestamp": "2026-09-18T14:43:00",
+    "developer": "dev_elena",
+    "project": "Project-Beta",
+    "event_type": "git",
+    "action": "pr_review",
+    "payload": {
+      "pr_id": 76,
+      "review_status": "APPROVED"
+    }
+  },
+  {
+    "id": "65751ec9-e7f8-5f63-b930-c50966e639de",
+    "timestamp": "2026-09-18T14:45:00",
+    "developer": "dev_alex",
+    "project": "Project-Alpha",
+    "event_type": "git",
+    "action": "pr_review",
+    "payload": {
+      "pr_id": 80,
+      "review_status": "APPROVED"
+    }
+  },
+  {
+    "id": "ffc17ee4-3a01-5b5e-9392-dcb25b4742a8",
+    "timestamp": "2026-09-18T15:05:00",
+    "developer": "dev_elena",
+    "project": "Project-Beta",
+    "event_type": "pi_agent",
+    "action": "pi_session_start",
+    "payload": {
+      "session_id": "pi_sess_dev_elena_5",
+      "agent_mode": "developer_assistant"
+    }
+  },
+  {
+    "id": "1f593f1f-f2fe-53f9-ad4c-203cc1015d46",
+    "timestamp": "2026-09-18T15:11:00",
+    "developer": "dev_elena",
+    "project": "Project-Beta",
+    "event_type": "pi_agent",
+    "action": "pi_tool_call",
+    "payload": {
+      "session_id": "pi_sess_dev_elena_5",
+      "tool": "search_code",
+      "arguments": {
+        "ticket": "BETA-202"
+      }
+    }
+  },
+  {
+    "id": "f2035339-fe04-580d-99d7-c401e335ed55",
+    "timestamp": "2026-09-18T15:17:00",
+    "developer": "dev_elena",
+    "project": "Project-Beta",
+    "event_type": "pi_agent",
+    "action": "pi_session_end",
+    "payload": {
+      "session_id": "pi_sess_dev_elena_5",
+      "status": "completed"
+    }
+  },
+  {
+    "id": "06f12b59-016b-5660-9980-c050fb2f26cd",
+    "timestamp": "2026-09-18T17:05:00",
+    "developer": "dev_sanket",
+    "project": "Project-Beta",
+    "event_type": "pi_agent",
+    "action": "pi_session_start",
+    "payload": {
+      "session_id": "pi_sess_dev_sanket_5",
+      "agent_mode": "developer_assistant"
+    }
+  },
+  {
+    "id": "681c4792-0f8e-5d7d-8a09-008ceb1fc115",
+    "timestamp": "2026-09-18T17:05:00",
+    "developer": "dev_alex",
+    "project": "Project-Alpha",
+    "event_type": "pi_agent",
+    "action": "pi_session_start",
+    "payload": {
+      "session_id": "pi_sess_dev_alex_5",
+      "agent_mode": "developer_assistant"
+    }
+  },
+  {
+    "id": "de1b2b7e-8e56-55c7-977c-913871d86d0d",
+    "timestamp": "2026-09-18T17:08:00",
+    "developer": "dev_sanket",
+    "project": "Project-Beta",
+    "event_type": "pi_agent",
+    "action": "pi_tool_call",
+    "payload": {
+      "session_id": "pi_sess_dev_sanket_5",
+      "tool": "run_unit_tests",
+      "arguments": {
+        "ticket": "BETA-204"
+      }
+    }
+  },
+  {
+    "id": "c8df1413-288a-5e24-a999-a7bb613244aa",
+    "timestamp": "2026-09-18T17:09:00",
+    "developer": "dev_alex",
+    "project": "Project-Alpha",
+    "event_type": "pi_agent",
+    "action": "pi_tool_call",
+    "payload": {
+      "session_id": "pi_sess_dev_alex_5",
+      "tool": "run_unit_tests",
+      "arguments": {
+        "ticket": "ALPHA-101"
+      }
+    }
+  },
+  {
+    "id": "8de43e81-ac20-5f54-8ae2-86b7893a1823",
+    "timestamp": "2026-09-18T17:16:00",
+    "developer": "dev_sanket",
+    "project": "Project-Beta",
+    "event_type": "pi_agent",
+    "action": "pi_session_end",
+    "payload": {
+      "session_id": "pi_sess_dev_sanket_5",
+      "status": "completed"
+    }
+  },
+  {
+    "id": "6565999c-dd0c-5a7c-926d-c738d5e2d481",
+    "timestamp": "2026-09-18T17:18:00",
+    "developer": "dev_alex",
+    "project": "Project-Alpha",
+    "event_type": "pi_agent",
+    "action": "pi_session_end",
+    "payload": {
+      "session_id": "pi_sess_dev_alex_5",
+      "status": "completed"
+    }
+  },
+  {
+    "id": "a9f462d9-f5dc-5bd8-ad2d-6cd6400e0ed3",
+    "timestamp": "2026-09-19T09:13:00",
+    "developer": "dev_alex",
+    "project": "Project-Alpha",
+    "event_type": "jira",
+    "action": "ticket_transition",
+    "payload": {
+      "ticket_id": "ALPHA-102",
+      "transition": "DONE",
+      "comment": "Updated ticket status to DONE"
+    }
+  },
+  {
+    "id": "6f7f148a-40fd-57d7-be3a-8d63a8fb4809",
+    "timestamp": "2026-09-19T09:18:00",
+    "developer": "dev_elena",
+    "project": "Project-Beta",
+    "event_type": "jira",
+    "action": "ticket_transition",
+    "payload": {
+      "ticket_id": "BETA-201",
+      "transition": "BLOCKED",
+      "comment": "Updated ticket status to BLOCKED"
+    }
+  },
+  {
+    "id": "70f1266c-9c68-58ea-967a-9a892ae3d5f2",
+    "timestamp": "2026-09-19T09:23:00",
+    "developer": "dev_sanket",
+    "project": "Project-Beta",
+    "event_type": "jira",
+    "action": "ticket_transition",
+    "payload": {
+      "ticket_id": "BETA-202",
+      "transition": "IN_PROGRESS",
+      "comment": "Updated ticket status to IN_PROGRESS"
+    }
+  },
+  {
+    "id": "06b3f35b-2ded-546b-ad6d-3b4bf5065e0f",
+    "timestamp": "2026-09-19T10:10:00",
+    "developer": "dev_sanket",
+    "project": "Project-Beta",
+    "event_type": "git",
+    "action": "commit",
+    "payload": {
+      "commit_hash": "0d9db125",
+      "branch": "dev_sanket/feature-work",
+      "message": "feat(BETA-202): routine updates and tests"
+    }
+  },
+  {
+    "id": "5d651622-c0a1-57c8-8dc5-978c5a11649b",
+    "timestamp": "2026-09-19T10:37:00",
+    "developer": "dev_elena",
+    "project": "Project-Beta",
+    "event_type": "git",
+    "action": "commit",
+    "payload": {
+      "commit_hash": "eb10a2ec",
+      "branch": "dev_elena/feature-work",
+      "message": "feat(BETA-201): routine updates and tests"
+    }
+  },
+  {
+    "id": "3c89e9a7-7f97-57c5-be88-09ce7764a9b4",
+    "timestamp": "2026-09-19T11:19:00",
+    "developer": "dev_sanket",
+    "project": "Project-Beta",
+    "event_type": "git",
+    "action": "pr_review",
+    "payload": {
+      "pr_id": 90,
+      "review_status": "APPROVED"
+    }
+  },
+  {
+    "id": "3fcf0bde-9a83-55b7-90dc-09d0e872c8f1",
+    "timestamp": "2026-09-19T12:05:00",
+    "developer": "dev_sanket",
+    "project": "Project-Beta",
+    "event_type": "pi_agent",
+    "action": "pi_session_start",
+    "payload": {
+      "session_id": "pi_sess_dev_sanket_6",
+      "agent_mode": "developer_assistant"
+    }
+  },
+  {
+    "id": "9a68917d-e96a-57fe-9f5e-bfb1c4e981ba",
+    "timestamp": "2026-09-19T12:08:00",
+    "developer": "dev_sanket",
+    "project": "Project-Beta",
+    "event_type": "pi_agent",
+    "action": "pi_tool_call",
+    "payload": {
+      "session_id": "pi_sess_dev_sanket_6",
+      "tool": "search_code",
+      "arguments": {
+        "ticket": "BETA-202"
+      }
+    }
+  },
+  {
+    "id": "df85049d-6cc2-5510-86ed-78f6867a5d2e",
+    "timestamp": "2026-09-19T12:16:00",
+    "developer": "dev_sanket",
+    "project": "Project-Beta",
+    "event_type": "pi_agent",
+    "action": "pi_session_end",
+    "payload": {
+      "session_id": "pi_sess_dev_sanket_6",
+      "status": "completed"
+    }
+  },
+  {
+    "id": "a5a42b59-2b39-5fce-be10-085cf0444840",
+    "timestamp": "2026-09-19T13:41:00",
+    "developer": "dev_alex",
+    "project": "Project-Alpha",
+    "event_type": "git",
+    "action": "commit",
+    "payload": {
+      "commit_hash": "de1cdf7d",
+      "branch": "dev_alex/feature-work",
+      "message": "feat(ALPHA-102): routine updates and tests"
+    }
+  },
+  {
+    "id": "36479b9a-bf03-5019-a802-90fced985de8",
+    "timestamp": "2026-09-19T14:28:00",
+    "developer": "dev_alex",
+    "project": "Project-Alpha",
+    "event_type": "git",
+    "action": "pr_review",
+    "payload": {
+      "pr_id": 79,
+      "review_status": "APPROVED"
+    }
+  },
+  {
+    "id": "ea7ab4a3-d8f2-555b-8392-54f9f452a0ce",
+    "timestamp": "2026-09-19T15:41:00",
+    "developer": "dev_elena",
+    "project": "Project-Beta",
+    "event_type": "git",
+    "action": "pr_review",
+    "payload": {
+      "pr_id": 69,
+      "review_status": "APPROVED"
+    }
+  },
+  {
+    "id": "fd6ab404-b540-52b6-91a1-948b44a02e88",
+    "timestamp": "2026-09-19T16:05:00",
+    "developer": "dev_elena",
+    "project": "Project-Beta",
+    "event_type": "pi_agent",
+    "action": "pi_session_start",
+    "payload": {
+      "session_id": "pi_sess_dev_elena_6",
+      "agent_mode": "developer_assistant"
+    }
+  },
+  {
+    "id": "d604ad99-0d67-516b-9d4c-6e55743b128f",
+    "timestamp": "2026-09-19T16:13:00",
+    "developer": "dev_elena",
+    "project": "Project-Beta",
+    "event_type": "pi_agent",
+    "action": "pi_tool_call",
+    "payload": {
+      "session_id": "pi_sess_dev_elena_6",
+      "tool": "run_unit_tests",
+      "arguments": {
+        "ticket": "BETA-201"
+      }
+    }
+  },
+  {
+    "id": "53d714d6-8ce6-5e51-872e-cc3047518fef",
+    "timestamp": "2026-09-19T16:18:00",
+    "developer": "dev_elena",
+    "project": "Project-Beta",
+    "event_type": "pi_agent",
+    "action": "pi_session_end",
+    "payload": {
+      "session_id": "pi_sess_dev_elena_6",
+      "status": "completed"
+    }
+  },
+  {
+    "id": "0b15dcf6-d13f-5a9c-a91f-5423446efe30",
+    "timestamp": "2026-09-19T17:05:00",
+    "developer": "dev_alex",
+    "project": "Project-Alpha",
+    "event_type": "pi_agent",
+    "action": "pi_session_start",
+    "payload": {
+      "session_id": "pi_sess_dev_alex_6",
+      "agent_mode": "developer_assistant"
+    }
+  },
+  {
+    "id": "8df78c0a-fb21-50e2-ac03-57b49c5cbdd4",
+    "timestamp": "2026-09-19T17:09:00",
+    "developer": "dev_alex",
+    "project": "Project-Alpha",
+    "event_type": "pi_agent",
+    "action": "pi_tool_call",
+    "payload": {
+      "session_id": "pi_sess_dev_alex_6",
+      "tool": "search_code",
+      "arguments": {
+        "ticket": "ALPHA-102"
+      }
+    }
+  },
+  {
+    "id": "4447af74-c128-51a3-a176-00f2231a8c96",
+    "timestamp": "2026-09-19T17:21:00",
+    "developer": "dev_alex",
+    "project": "Project-Alpha",
+    "event_type": "pi_agent",
+    "action": "pi_session_end",
+    "payload": {
+      "session_id": "pi_sess_dev_alex_6",
+      "status": "completed"
+    }
+  },
+  {
+    "id": "3f9ff658-46da-5fe2-a269-0421a09a9284",
+    "timestamp": "2026-09-20T09:08:00",
+    "developer": "dev_sanket",
+    "project": "Project-Beta",
+    "event_type": "jira",
+    "action": "ticket_transition",
+    "payload": {
+      "ticket_id": "BETA-203",
+      "transition": "IN_PROGRESS",
+      "comment": "Updated ticket status to IN_PROGRESS"
+    }
+  },
+  {
+    "id": "b6df76cf-7649-5a44-bd18-638071c1565b",
+    "timestamp": "2026-09-20T10:19:00",
+    "developer": "dev_alex",
+    "project": "Project-Alpha",
+    "event_type": "jira",
+    "action": "ticket_transition",
+    "payload": {
+      "ticket_id": "ALPHA-101",
+      "transition": "DONE",
+      "comment": "Updated ticket status to DONE"
+    }
+  },
+  {
+    "id": "762d2aab-9ebc-5931-8b46-a254cd9ddd6f",
+    "timestamp": "2026-09-20T10:22:00",
+    "developer": "dev_sanket",
+    "project": "Project-Beta",
+    "event_type": "git",
+    "action": "commit",
+    "payload": {
+      "commit_hash": "d5e5ab55",
+      "branch": "dev_sanket/feature-work",
+      "message": "feat(BETA-203): routine updates and tests"
+    }
+  },
+  {
+    "id": "776c7da0-ba61-5bcb-acf9-c0f8ff1565c8",
+    "timestamp": "2026-09-20T11:11:00",
+    "developer": "dev_elena",
+    "project": "Project-Beta",
+    "event_type": "jira",
+    "action": "ticket_transition",
+    "payload": {
+      "ticket_id": "BETA-204",
+      "transition": "BLOCKED",
+      "comment": "Updated ticket status to BLOCKED"
+    }
+  },
+  {
+    "id": "2059ac2f-ae1f-589e-8774-eb99d6a2a63f",
+    "timestamp": "2026-09-20T11:16:00",
+    "developer": "dev_alex",
+    "project": "Project-Alpha",
+    "event_type": "git",
+    "action": "commit",
+    "payload": {
+      "commit_hash": "7dc7ac60",
+      "branch": "dev_alex/feature-work",
+      "message": "feat(ALPHA-101): routine updates and tests"
+    }
+  },
+  {
+    "id": "87c17aac-9d07-569d-842f-26e147b91928",
+    "timestamp": "2026-09-20T12:13:00",
+    "developer": "dev_elena",
+    "project": "Project-Beta",
+    "event_type": "git",
+    "action": "commit",
+    "payload": {
+      "commit_hash": "e1fbe04f",
+      "branch": "dev_elena/feature-work",
+      "message": "feat(BETA-204): routine updates and tests"
+    }
+  },
+  {
+    "id": "621052ea-6324-59a5-8efa-d0cd33b10e9b",
+    "timestamp": "2026-09-20T12:18:00",
+    "developer": "dev_alex",
+    "project": "Project-Alpha",
+    "event_type": "git",
+    "action": "pr_review",
+    "payload": {
+      "pr_id": 93,
+      "review_status": "APPROVED"
+    }
+  },
+  {
+    "id": "640ea196-1433-5d1d-ae21-94ee82c5d665",
+    "timestamp": "2026-09-20T12:27:00",
+    "developer": "dev_sanket",
+    "project": "Project-Beta",
+    "event_type": "git",
+    "action": "pr_review",
+    "payload": {
+      "pr_id": 78,
+      "review_status": "APPROVED"
+    }
+  },
+  {
+    "id": "5c912a08-dbf7-5085-80cc-f08c66ace23c",
+    "timestamp": "2026-09-20T13:05:00",
+    "developer": "dev_alex",
+    "project": "Project-Alpha",
+    "event_type": "pi_agent",
+    "action": "pi_session_start",
+    "payload": {
+      "session_id": "pi_sess_dev_alex_7",
+      "agent_mode": "developer_assistant"
+    }
+  },
+  {
+    "id": "f0692f35-1d39-5eaf-a472-7090d33ea057",
+    "timestamp": "2026-09-20T13:12:00",
+    "developer": "dev_alex",
+    "project": "Project-Alpha",
+    "event_type": "pi_agent",
+    "action": "pi_tool_call",
+    "payload": {
+      "session_id": "pi_sess_dev_alex_7",
+      "tool": "search_code",
+      "arguments": {
+        "ticket": "ALPHA-101"
+      }
+    }
+  },
+  {
+    "id": "7ddb67c2-5206-593e-929a-b43ef790ad4c",
+    "timestamp": "2026-09-20T13:17:00",
+    "developer": "dev_alex",
+    "project": "Project-Alpha",
+    "event_type": "pi_agent",
+    "action": "pi_session_end",
+    "payload": {
+      "session_id": "pi_sess_dev_alex_7",
+      "status": "completed"
+    }
+  },
+  {
+    "id": "69fd8aa5-b841-5718-aa3d-1418c359f2ff",
+    "timestamp": "2026-09-20T14:05:00",
+    "developer": "dev_sanket",
+    "project": "Project-Beta",
+    "event_type": "pi_agent",
+    "action": "pi_session_start",
+    "payload": {
+      "session_id": "pi_sess_dev_sanket_7",
+      "agent_mode": "developer_assistant"
+    }
+  },
+  {
+    "id": "98112580-8b6d-5580-8627-07cef3502e12",
+    "timestamp": "2026-09-20T14:11:00",
+    "developer": "dev_sanket",
+    "project": "Project-Beta",
+    "event_type": "pi_agent",
+    "action": "pi_tool_call",
+    "payload": {
+      "session_id": "pi_sess_dev_sanket_7",
+      "tool": "run_linter",
+      "arguments": {
+        "ticket": "BETA-203"
+      }
+    }
+  },
+  {
+    "id": "902e8bfc-0f21-53e9-83de-f735d1a9fe5d",
+    "timestamp": "2026-09-20T14:18:00",
+    "developer": "dev_sanket",
+    "project": "Project-Beta",
+    "event_type": "pi_agent",
+    "action": "pi_session_end",
+    "payload": {
+      "session_id": "pi_sess_dev_sanket_7",
+      "status": "completed"
+    }
+  },
+  {
+    "id": "d792bfa9-5c27-5357-bb95-1f5a8386ec54",
+    "timestamp": "2026-09-20T15:25:00",
+    "developer": "dev_elena",
+    "project": "Project-Beta",
+    "event_type": "git",
+    "action": "pr_review",
+    "payload": {
+      "pr_id": 58,
+      "review_status": "APPROVED"
+    }
+  },
+  {
+    "id": "4a720017-4480-5d95-9fa2-263cc350a08b",
+    "timestamp": "2026-09-20T17:05:00",
+    "developer": "dev_elena",
+    "project": "Project-Beta",
+    "event_type": "pi_agent",
+    "action": "pi_session_start",
+    "payload": {
+      "session_id": "pi_sess_dev_elena_7",
+      "agent_mode": "developer_assistant"
+    }
+  },
+  {
+    "id": "f4caad80-735b-5dcd-946e-909e0a2d0d19",
+    "timestamp": "2026-09-20T17:08:00",
+    "developer": "dev_elena",
+    "project": "Project-Beta",
+    "event_type": "pi_agent",
+    "action": "pi_tool_call",
+    "payload": {
+      "session_id": "pi_sess_dev_elena_7",
+      "tool": "run_linter",
+      "arguments": {
+        "ticket": "BETA-204"
+      }
+    }
+  },
+  {
+    "id": "d66dfe49-5e14-5440-9c51-099b590f177d",
+    "timestamp": "2026-09-20T17:19:00",
+    "developer": "dev_elena",
+    "project": "Project-Beta",
+    "event_type": "pi_agent",
+    "action": "pi_session_end",
+    "payload": {
+      "session_id": "pi_sess_dev_elena_7",
+      "status": "completed"
+    }
+  },
+  {
+    "id": "1c288c01-10fe-5e4d-a9fb-00655c2670dc",
+    "timestamp": "2026-09-20T17:30:00",
+    "developer": "dev_sanket",
+    "project": "Project-Beta",
+    "event_type": "jira",
+    "action": "ticket_transition",
+    "payload": {
+      "ticket_id": "BETA-911",
+      "transition": "DONE",
+      "resolution": "Fixed and verified in staging"
+    }
+  },
+  {
+    "id": "1cc2a2e1-cf41-57ce-a03e-052238e81628",
+    "timestamp": "2026-09-21T09:10:00",
+    "developer": "dev_sanket",
+    "project": "Project-Alpha",
+    "event_type": "git",
+    "action": "checkout",
+    "payload": {
+      "branch": "feature/ALPHA-101-core-pipeline",
+      "base_branch": "main"
+    }
+  },
+  {
+    "id": "2c91b883-860e-5afb-95c3-82cb32b069cf",
+    "timestamp": "2026-09-21T09:21:00",
+    "developer": "dev_alex",
+    "project": "Project-Alpha",
+    "event_type": "jira",
+    "action": "ticket_transition",
+    "payload": {
+      "ticket_id": "ALPHA-104",
+      "transition": "DONE",
+      "comment": "Updated ticket status to DONE"
+    }
+  },
+  {
+    "id": "d5514227-83e2-5bf2-a16c-fc841869e512",
+    "timestamp": "2026-09-21T09:23:00",
+    "developer": "dev_elena",
+    "project": "Project-Beta",
+    "event_type": "jira",
+    "action": "ticket_transition",
+    "payload": {
+      "ticket_id": "BETA-202",
+      "transition": "DONE",
+      "comment": "Updated ticket status to DONE"
+    }
+  },
+  {
+    "id": "82c63922-d7b1-5844-956e-c291fc82c639",
+    "timestamp": "2026-09-21T10:12:00",
+    "developer": "dev_elena",
+    "project": "Project-Beta",
+    "event_type": "git",
+    "action": "commit",
+    "payload": {
+      "commit_hash": "d982e17a",
+      "branch": "dev_elena/feature-work",
+      "message": "feat(BETA-202): routine updates and tests"
+    }
+  },
+  {
+    "id": "752bdc70-6480-580d-8201-e44dca46879c",
+    "timestamp": "2026-09-21T12:09:00",
+    "developer": "dev_sanket",
+    "project": "Project-Alpha",
+    "event_type": "jira",
+    "action": "ticket_transition",
+    "payload": {
+      "ticket_id": "ALPHA-104",
+      "transition": "IN_PROGRESS",
+      "comment": "Updated ticket status to IN_PROGRESS"
+    }
+  },
+  {
+    "id": "b4b383e6-5dff-5e3e-b7f7-042aade8bcda",
+    "timestamp": "2026-09-21T12:20:00",
+    "developer": "dev_elena",
+    "project": "Project-Beta",
+    "event_type": "git",
+    "action": "pr_review",
+    "payload": {
+      "pr_id": 63,
+      "review_status": "APPROVED"
+    }
+  },
+  {
+    "id": "99ccb291-8b79-555d-9818-1b3148a65f26",
+    "timestamp": "2026-09-21T13:20:00",
+    "developer": "dev_alex",
+    "project": "Project-Alpha",
+    "event_type": "git",
+    "action": "commit",
+    "payload": {
+      "commit_hash": "aa8a9d47",
+      "branch": "dev_alex/feature-work",
+      "message": "feat(ALPHA-104): routine updates and tests"
+    }
+  },
+  {
+    "id": "b9aecdaf-a191-57fa-9275-4e0b4c3dacff",
+    "timestamp": "2026-09-21T13:28:00",
+    "developer": "dev_sanket",
+    "project": "Project-Alpha",
+    "event_type": "git",
+    "action": "commit",
+    "payload": {
+      "commit_hash": "4c4a1067",
+      "branch": "dev_sanket/feature-work",
+      "message": "feat(ALPHA-104): routine updates and tests"
+    }
+  },
+  {
+    "id": "992e7eac-6df8-5989-b46e-d56d8c2010e5",
+    "timestamp": "2026-09-21T14:18:00",
+    "developer": "dev_alex",
+    "project": "Project-Alpha",
+    "event_type": "git",
+    "action": "pr_review",
+    "payload": {
+      "pr_id": 75,
+      "review_status": "APPROVED"
+    }
+  },
+  {
+    "id": "26db13b1-2021-5cd3-8b34-d4e94354ee1b",
+    "timestamp": "2026-09-21T14:28:00",
+    "developer": "dev_sanket",
+    "project": "Project-Alpha",
+    "event_type": "git",
+    "action": "pr_review",
+    "payload": {
+      "pr_id": 17,
+      "review_status": "APPROVED"
+    }
+  },
+  {
+    "id": "869e14c6-6826-5673-b88a-f599aa0011c9",
+    "timestamp": "2026-09-21T16:05:00",
+    "developer": "dev_sanket",
+    "project": "Project-Alpha",
+    "event_type": "pi_agent",
+    "action": "pi_session_start",
+    "payload": {
+      "session_id": "pi_sess_dev_sanket_8",
+      "agent_mode": "developer_assistant"
+    }
+  },
+  {
+    "id": "888444ee-51c6-50df-b298-255fe4a463e6",
+    "timestamp": "2026-09-21T16:05:00",
+    "developer": "dev_alex",
+    "project": "Project-Alpha",
+    "event_type": "pi_agent",
+    "action": "pi_session_start",
+    "payload": {
+      "session_id": "pi_sess_dev_alex_8",
+      "agent_mode": "developer_assistant"
+    }
+  },
+  {
+    "id": "050f1f22-d3a8-5db6-bb51-d7c054e854b8",
+    "timestamp": "2026-09-21T16:05:00",
+    "developer": "dev_elena",
+    "project": "Project-Beta",
+    "event_type": "pi_agent",
+    "action": "pi_session_start",
+    "payload": {
+      "session_id": "pi_sess_dev_elena_8",
+      "agent_mode": "developer_assistant"
+    }
+  },
+  {
+    "id": "838c6fa9-2ce4-5cd8-b3a9-22309e0ddb74",
+    "timestamp": "2026-09-21T16:08:00",
+    "developer": "dev_alex",
+    "project": "Project-Alpha",
+    "event_type": "pi_agent",
+    "action": "pi_tool_call",
+    "payload": {
+      "session_id": "pi_sess_dev_alex_8",
+      "tool": "search_code",
+      "arguments": {
+        "ticket": "ALPHA-104"
+      }
+    }
+  },
+  {
+    "id": "45d226fd-2d1d-56d7-be13-78641313e7f2",
+    "timestamp": "2026-09-21T16:12:00",
+    "developer": "dev_sanket",
+    "project": "Project-Alpha",
+    "event_type": "pi_agent",
+    "action": "pi_tool_call",
+    "payload": {
+      "session_id": "pi_sess_dev_sanket_8",
+      "tool": "run_unit_tests",
+      "arguments": {
+        "ticket": "ALPHA-104"
+      }
+    }
+  },
+  {
+    "id": "04f8c394-60e2-58d7-a0b8-3fafd4a0df4a",
+    "timestamp": "2026-09-21T16:13:00",
+    "developer": "dev_elena",
+    "project": "Project-Beta",
+    "event_type": "pi_agent",
+    "action": "pi_tool_call",
+    "payload": {
+      "session_id": "pi_sess_dev_elena_8",
+      "tool": "run_linter",
+      "arguments": {
+        "ticket": "BETA-202"
+      }
+    }
+  },
+  {
+    "id": "06b896d2-d8db-54bc-a1ee-4a0f89c71bd3",
+    "timestamp": "2026-09-21T16:15:00",
+    "developer": "dev_alex",
+    "project": "Project-Alpha",
+    "event_type": "pi_agent",
+    "action": "pi_session_end",
+    "payload": {
+      "session_id": "pi_sess_dev_alex_8",
+      "status": "completed"
+    }
+  },
+  {
+    "id": "9e5b41b1-e1ca-598d-be54-da00a59bb1c0",
+    "timestamp": "2026-09-21T16:17:00",
+    "developer": "dev_sanket",
+    "project": "Project-Alpha",
+    "event_type": "pi_agent",
+    "action": "pi_session_end",
+    "payload": {
+      "session_id": "pi_sess_dev_sanket_8",
+      "status": "completed"
+    }
+  },
+  {
+    "id": "8b29c4d3-2db7-5262-9c31-05643a16b278",
+    "timestamp": "2026-09-21T16:23:00",
+    "developer": "dev_elena",
+    "project": "Project-Beta",
+    "event_type": "pi_agent",
+    "action": "pi_session_end",
+    "payload": {
+      "session_id": "pi_sess_dev_elena_8",
+      "status": "completed"
+    }
+  },
+  {
+    "id": "b7ac16aa-e49f-5fc5-8d86-ce3a1bd3f8d0",
+    "timestamp": "2026-09-22T10:09:00",
+    "developer": "dev_sanket",
+    "project": "Project-Alpha",
+    "event_type": "jira",
+    "action": "ticket_transition",
+    "payload": {
+      "ticket_id": "ALPHA-104",
+      "transition": "DONE",
+      "comment": "Updated ticket status to DONE"
+    }
+  },
+  {
+    "id": "9514b1da-9fb5-53b3-a460-7259631fee0b",
+    "timestamp": "2026-09-22T10:09:00",
+    "developer": "dev_alex",
+    "project": "Project-Alpha",
+    "event_type": "jira",
+    "action": "ticket_transition",
+    "payload": {
+      "ticket_id": "ALPHA-103",
+      "transition": "BLOCKED",
+      "comment": "Updated ticket status to BLOCKED"
+    }
+  },
+  {
+    "id": "0821b461-511c-5379-92e5-cd32f36b397f",
+    "timestamp": "2026-09-22T11:29:00",
+    "developer": "dev_sanket",
+    "project": "Project-Alpha",
+    "event_type": "git",
+    "action": "commit",
+    "payload": {
+      "commit_hash": "f8c05ef0",
+      "branch": "dev_sanket/feature-work",
+      "message": "feat(ALPHA-104): routine updates and tests"
+    }
+  },
+  {
+    "id": "3172978e-f3bb-5b50-807c-1e3ded72bd51",
+    "timestamp": "2026-09-22T12:44:00",
+    "developer": "dev_sanket",
+    "project": "Project-Alpha",
+    "event_type": "git",
+    "action": "pr_review",
+    "payload": {
+      "pr_id": 50,
+      "review_status": "APPROVED"
+    }
+  },
+  {
+    "id": "57c38165-cae2-5467-accb-1c30ac694a06",
+    "timestamp": "2026-09-22T13:14:00",
+    "developer": "dev_alex",
+    "project": "Project-Alpha",
+    "event_type": "git",
+    "action": "commit",
+    "payload": {
+      "commit_hash": "53049388",
+      "branch": "dev_alex/feature-work",
+      "message": "feat(ALPHA-103): routine updates and tests"
+    }
+  },
+  {
+    "id": "16b1a718-d033-5e9a-95c4-3b3728eda75d",
+    "timestamp": "2026-09-22T13:22:00",
+    "developer": "dev_elena",
+    "project": "Project-Beta",
+    "event_type": "jira",
+    "action": "ticket_transition",
+    "payload": {
+      "ticket_id": "BETA-201",
+      "transition": "BLOCKED",
+      "comment": "Updated ticket status to BLOCKED"
+    }
+  },
+  {
+    "id": "25c9629e-076a-514c-9424-1112f2404c53",
+    "timestamp": "2026-09-22T14:05:00",
+    "developer": "dev_sanket",
+    "project": "Project-Alpha",
+    "event_type": "pi_agent",
+    "action": "pi_session_start",
+    "payload": {
+      "session_id": "pi_sess_dev_sanket_9",
+      "agent_mode": "developer_assistant"
+    }
+  },
+  {
+    "id": "662c275d-3f5c-53da-9e84-7b794679bd6f",
+    "timestamp": "2026-09-22T14:08:00",
+    "developer": "dev_sanket",
+    "project": "Project-Alpha",
+    "event_type": "pi_agent",
+    "action": "pi_tool_call",
+    "payload": {
+      "session_id": "pi_sess_dev_sanket_9",
+      "tool": "run_linter",
+      "arguments": {
+        "ticket": "ALPHA-104"
+      }
+    }
+  },
+  {
+    "id": "68fb5505-d318-5ac4-913f-2dba90bd75b8",
+    "timestamp": "2026-09-22T14:13:00",
+    "developer": "dev_sanket",
+    "project": "Project-Alpha",
+    "event_type": "pi_agent",
+    "action": "pi_session_end",
+    "payload": {
+      "session_id": "pi_sess_dev_sanket_9",
+      "status": "completed"
+    }
+  },
+  {
+    "id": "2c6d6642-83cb-526c-bf46-8edcaf194ab1",
+    "timestamp": "2026-09-22T14:16:00",
+    "developer": "dev_elena",
+    "project": "Project-Beta",
+    "event_type": "git",
+    "action": "commit",
+    "payload": {
+      "commit_hash": "c5f031f4",
+      "branch": "dev_elena/feature-work",
+      "message": "feat(BETA-201): routine updates and tests"
+    }
+  },
+  {
+    "id": "21195bbd-44e7-5a96-8033-64ee0668f7f1",
+    "timestamp": "2026-09-22T16:23:00",
+    "developer": "dev_elena",
+    "project": "Project-Beta",
+    "event_type": "git",
+    "action": "pr_review",
+    "payload": {
+      "pr_id": 43,
+      "review_status": "APPROVED"
+    }
+  },
+  {
+    "id": "a376c17e-5a13-57ea-9b27-ca58423ff806",
+    "timestamp": "2026-09-22T16:30:00",
+    "developer": "dev_alex",
+    "project": "Project-Alpha",
+    "event_type": "git",
+    "action": "pr_review",
+    "payload": {
+      "pr_id": 57,
+      "review_status": "APPROVED"
+    }
+  },
+  {
+    "id": "ecd2d3ba-092f-5fca-8c28-da6eff7d024a",
+    "timestamp": "2026-09-22T17:05:00",
+    "developer": "dev_alex",
+    "project": "Project-Alpha",
+    "event_type": "pi_agent",
+    "action": "pi_session_start",
+    "payload": {
+      "session_id": "pi_sess_dev_alex_9",
+      "agent_mode": "developer_assistant"
+    }
+  },
+  {
+    "id": "b04f17a6-c600-5138-a974-921fc6aecd82",
+    "timestamp": "2026-09-22T17:05:00",
+    "developer": "dev_elena",
+    "project": "Project-Beta",
+    "event_type": "pi_agent",
+    "action": "pi_session_start",
+    "payload": {
+      "session_id": "pi_sess_dev_elena_9",
+      "agent_mode": "developer_assistant"
+    }
+  },
+  {
+    "id": "64c97acf-4e16-50ec-9c53-e40bdf384b8f",
+    "timestamp": "2026-09-22T17:08:00",
+    "developer": "dev_elena",
+    "project": "Project-Beta",
+    "event_type": "pi_agent",
+    "action": "pi_tool_call",
+    "payload": {
+      "session_id": "pi_sess_dev_elena_9",
+      "tool": "run_unit_tests",
+      "arguments": {
+        "ticket": "BETA-201"
+      }
+    }
+  },
+  {
+    "id": "22d6b580-33be-5593-af49-97017130bc1f",
+    "timestamp": "2026-09-22T17:10:00",
+    "developer": "dev_alex",
+    "project": "Project-Alpha",
+    "event_type": "pi_agent",
+    "action": "pi_tool_call",
+    "payload": {
+      "session_id": "pi_sess_dev_alex_9",
+      "tool": "run_linter",
+      "arguments": {
+        "ticket": "ALPHA-103"
+      }
+    }
+  },
+  {
+    "id": "f93eb75e-5b3b-5026-a589-dd60486b1609",
+    "timestamp": "2026-09-22T17:14:00",
+    "developer": "dev_elena",
+    "project": "Project-Beta",
+    "event_type": "pi_agent",
+    "action": "pi_session_end",
+    "payload": {
+      "session_id": "pi_sess_dev_elena_9",
+      "status": "completed"
+    }
+  },
+  {
+    "id": "0e0d1056-9e27-5a2f-8031-e28d3e42b16f",
+    "timestamp": "2026-09-22T17:17:00",
+    "developer": "dev_alex",
+    "project": "Project-Alpha",
+    "event_type": "pi_agent",
+    "action": "pi_session_end",
+    "payload": {
+      "session_id": "pi_sess_dev_alex_9",
+      "status": "completed"
+    }
+  },
+  {
+    "id": "1f2cf7e9-0674-508e-b8d6-b2df7d2f1ea3",
+    "timestamp": "2026-09-23T09:09:00",
+    "developer": "dev_alex",
+    "project": "Project-Alpha",
+    "event_type": "jira",
+    "action": "ticket_transition",
+    "payload": {
+      "ticket_id": "ALPHA-103",
+      "transition": "DONE",
+      "comment": "Updated ticket status to DONE"
+    }
+  },
+  {
+    "id": "b47e6b95-7517-5b96-8ccc-7c8c6ff3e756",
+    "timestamp": "2026-09-23T09:22:00",
+    "developer": "dev_elena",
+    "project": "Project-Beta",
+    "event_type": "jira",
+    "action": "ticket_transition",
+    "payload": {
+      "ticket_id": "BETA-202",
+      "transition": "IN_PROGRESS",
+      "comment": "Updated ticket status to IN_PROGRESS"
+    }
+  },
+  {
+    "id": "d7e0968b-9170-5e72-8d86-f9e474e04a17",
+    "timestamp": "2026-09-23T10:33:00",
+    "developer": "dev_elena",
+    "project": "Project-Beta",
+    "event_type": "git",
+    "action": "commit",
+    "payload": {
+      "commit_hash": "a67c67a9",
+      "branch": "dev_elena/feature-work",
+      "message": "feat(BETA-202): routine updates and tests"
+    }
+  },
+  {
+    "id": "cefff816-9090-51bb-a993-59be117c8906",
+    "timestamp": "2026-09-23T11:15:00",
+    "developer": "dev_sanket",
+    "project": "Project-Alpha",
+    "event_type": "jira",
+    "action": "ticket_transition",
+    "payload": {
+      "ticket_id": "ALPHA-102",
+      "transition": "IN_PROGRESS",
+      "comment": "Updated ticket status to IN_PROGRESS"
+    }
+  },
+  {
+    "id": "aa6bfcbb-858e-5551-8a4d-fd2b4f9c7dfb",
+    "timestamp": "2026-09-23T13:26:00",
+    "developer": "dev_alex",
+    "project": "Project-Alpha",
+    "event_type": "git",
+    "action": "commit",
+    "payload": {
+      "commit_hash": "71d8368e",
+      "branch": "dev_alex/feature-work",
+      "message": "feat(ALPHA-103): routine updates and tests"
+    }
+  },
+  {
+    "id": "8e92ed4e-46ba-5597-a3e0-4b4842fc369b",
+    "timestamp": "2026-09-23T14:50:00",
+    "developer": "dev_elena",
+    "project": "Project-Beta",
+    "event_type": "git",
+    "action": "pr_review",
+    "payload": {
+      "pr_id": 28,
+      "review_status": "APPROVED"
+    }
+  },
+  {
+    "id": "85b703be-009f-5d1d-99f9-ab7e80556249",
+    "timestamp": "2026-09-23T15:25:00",
+    "developer": "dev_alex",
+    "project": "Project-Alpha",
+    "event_type": "git",
+    "action": "pr_review",
+    "payload": {
+      "pr_id": 66,
+      "review_status": "APPROVED"
+    }
+  },
+  {
+    "id": "c4678a54-bf9c-5158-8726-bc465499f8fe",
+    "timestamp": "2026-09-23T15:26:00",
+    "developer": "dev_sanket",
+    "project": "Project-Alpha",
+    "event_type": "git",
+    "action": "commit",
+    "payload": {
+      "commit_hash": "0da821ad",
+      "branch": "dev_sanket/feature-work",
+      "message": "feat(ALPHA-102): routine updates and tests"
+    }
+  },
+  {
+    "id": "094405ed-236c-5815-8888-d4c059dd9115",
+    "timestamp": "2026-09-23T16:47:00",
+    "developer": "dev_sanket",
+    "project": "Project-Alpha",
+    "event_type": "git",
+    "action": "pr_review",
+    "payload": {
+      "pr_id": 72,
+      "review_status": "APPROVED"
+    }
+  },
+  {
+    "id": "101aa7b1-9671-54ea-95cd-4c3f2210879a",
+    "timestamp": "2026-09-23T17:05:00",
+    "developer": "dev_sanket",
+    "project": "Project-Alpha",
+    "event_type": "pi_agent",
+    "action": "pi_session_start",
+    "payload": {
+      "session_id": "pi_sess_dev_sanket_10",
+      "agent_mode": "developer_assistant"
+    }
+  },
+  {
+    "id": "dba2ac3d-a00c-502d-a919-12460b98c7f2",
+    "timestamp": "2026-09-23T17:05:00",
+    "developer": "dev_alex",
+    "project": "Project-Alpha",
+    "event_type": "pi_agent",
+    "action": "pi_session_start",
+    "payload": {
+      "session_id": "pi_sess_dev_alex_10",
+      "agent_mode": "developer_assistant"
+    }
+  },
+  {
+    "id": "958b8f72-f350-55ad-85ce-0d670918ff51",
+    "timestamp": "2026-09-23T17:05:00",
+    "developer": "dev_elena",
+    "project": "Project-Beta",
+    "event_type": "pi_agent",
+    "action": "pi_session_start",
+    "payload": {
+      "session_id": "pi_sess_dev_elena_10",
+      "agent_mode": "developer_assistant"
+    }
+  },
+  {
+    "id": "524dd503-1c1c-58dc-85d1-e2497c81084a",
+    "timestamp": "2026-09-23T17:10:00",
+    "developer": "dev_sanket",
+    "project": "Project-Alpha",
+    "event_type": "pi_agent",
+    "action": "pi_tool_call",
+    "payload": {
+      "session_id": "pi_sess_dev_sanket_10",
+      "tool": "search_code",
+      "arguments": {
+        "ticket": "ALPHA-102"
+      }
+    }
+  },
+  {
+    "id": "b9737d0f-aff7-5cb4-9189-c2ab1a398d47",
+    "timestamp": "2026-09-23T17:11:00",
+    "developer": "dev_elena",
+    "project": "Project-Beta",
+    "event_type": "pi_agent",
+    "action": "pi_tool_call",
+    "payload": {
+      "session_id": "pi_sess_dev_elena_10",
+      "tool": "search_code",
+      "arguments": {
+        "ticket": "BETA-202"
+      }
+    }
+  },
+  {
+    "id": "a9bb6fb7-9522-5d95-88f5-6d2c3994a244",
+    "timestamp": "2026-09-23T17:12:00",
+    "developer": "dev_alex",
+    "project": "Project-Alpha",
+    "event_type": "pi_agent",
+    "action": "pi_tool_call",
+    "payload": {
+      "session_id": "pi_sess_dev_alex_10",
+      "tool": "run_unit_tests",
+      "arguments": {
+        "ticket": "ALPHA-103"
+      }
+    }
+  },
+  {
+    "id": "31bb1342-db51-5c45-94f0-7c5142a690e4",
+    "timestamp": "2026-09-23T17:15:00",
+    "developer": "dev_sanket",
+    "project": "Project-Alpha",
+    "event_type": "pi_agent",
+    "action": "pi_session_end",
+    "payload": {
+      "session_id": "pi_sess_dev_sanket_10",
+      "status": "completed"
+    }
+  },
+  {
+    "id": "88d2e946-8b0c-5b6d-97e6-87f18f20752b",
+    "timestamp": "2026-09-23T17:18:00",
+    "developer": "dev_elena",
+    "project": "Project-Beta",
+    "event_type": "pi_agent",
+    "action": "pi_session_end",
+    "payload": {
+      "session_id": "pi_sess_dev_elena_10",
+      "status": "completed"
+    }
+  },
+  {
+    "id": "8e339487-b5af-5d4c-af6c-d053bac04907",
+    "timestamp": "2026-09-23T17:23:00",
+    "developer": "dev_alex",
+    "project": "Project-Alpha",
+    "event_type": "pi_agent",
+    "action": "pi_session_end",
+    "payload": {
+      "session_id": "pi_sess_dev_alex_10",
+      "status": "completed"
+    }
+  },
+  {
+    "id": "7db7cdb0-9c52-57b3-916f-c4f3f73af70d",
+    "timestamp": "2026-09-24T09:11:00",
+    "developer": "dev_sanket",
+    "project": "Project-Alpha",
+    "event_type": "jira",
+    "action": "ticket_transition",
+    "payload": {
+      "ticket_id": "ALPHA-103",
+      "transition": "DONE",
+      "comment": "Updated ticket status to DONE"
+    }
+  },
+  {
+    "id": "408091a4-b593-521a-a4a3-105e45f1b29c",
+    "timestamp": "2026-09-24T09:12:00",
+    "developer": "dev_elena",
+    "project": "Project-Beta",
+    "event_type": "jira",
+    "action": "ticket_transition",
+    "payload": {
+      "ticket_id": "BETA-204",
+      "transition": "IN_PROGRESS",
+      "comment": "Updated ticket status to IN_PROGRESS"
+    }
+  },
+  {
+    "id": "f7b853f9-84b1-52fa-88da-69eaadc22967",
+    "timestamp": "2026-09-24T10:18:00",
+    "developer": "dev_alex",
+    "project": "Project-Alpha",
+    "event_type": "jira",
+    "action": "ticket_transition",
+    "payload": {
+      "ticket_id": "ALPHA-102",
+      "transition": "IN_PROGRESS",
+      "comment": "Updated ticket status to IN_PROGRESS"
+    }
+  },
+  {
+    "id": "e9a0dcb9-6414-519d-ad72-c93c7ac0daf3",
+    "timestamp": "2026-09-24T10:39:00",
+    "developer": "dev_elena",
+    "project": "Project-Beta",
+    "event_type": "git",
+    "action": "commit",
+    "payload": {
+      "commit_hash": "4715ac19",
+      "branch": "dev_elena/feature-work",
+      "message": "feat(BETA-204): routine updates and tests"
+    }
+  },
+  {
+    "id": "9060853a-96dd-5717-8f8c-48b8fb05672a",
+    "timestamp": "2026-09-24T11:21:00",
+    "developer": "dev_alex",
+    "project": "Project-Alpha",
+    "event_type": "git",
+    "action": "commit",
+    "payload": {
+      "commit_hash": "f7ca1e3f",
+      "branch": "dev_alex/feature-work",
+      "message": "feat(ALPHA-102): routine updates and tests"
+    }
+  },
+  {
+    "id": "ad341e71-5ab0-537f-a444-1fae0a1510d5",
+    "timestamp": "2026-09-24T11:37:00",
+    "developer": "dev_elena",
+    "project": "Project-Beta",
+    "event_type": "git",
+    "action": "pr_review",
+    "payload": {
+      "pr_id": 49,
+      "review_status": "APPROVED"
+    }
+  },
+  {
+    "id": "237871ab-8023-5fe6-b5f6-f25cec7f2b78",
+    "timestamp": "2026-09-24T12:05:00",
+    "developer": "dev_elena",
+    "project": "Project-Beta",
+    "event_type": "pi_agent",
+    "action": "pi_session_start",
+    "payload": {
+      "session_id": "pi_sess_dev_elena_11",
+      "agent_mode": "developer_assistant"
+    }
+  },
+  {
+    "id": "b31a161d-4ab3-541d-b031-370eb6565ce2",
+    "timestamp": "2026-09-24T12:09:00",
+    "developer": "dev_elena",
+    "project": "Project-Beta",
+    "event_type": "pi_agent",
+    "action": "pi_tool_call",
+    "payload": {
+      "session_id": "pi_sess_dev_elena_11",
+      "tool": "search_code",
+      "arguments": {
+        "ticket": "BETA-204"
+      }
+    }
+  },
+  {
+    "id": "146f9d9b-eeb3-580e-870f-7f6c307abb09",
+    "timestamp": "2026-09-24T12:17:00",
+    "developer": "dev_elena",
+    "project": "Project-Beta",
+    "event_type": "pi_agent",
+    "action": "pi_session_end",
+    "payload": {
+      "session_id": "pi_sess_dev_elena_11",
+      "status": "completed"
+    }
+  },
+  {
+    "id": "4e74f36b-26fe-5659-b290-ff53e224e1dc",
+    "timestamp": "2026-09-24T12:36:00",
+    "developer": "dev_alex",
+    "project": "Project-Alpha",
+    "event_type": "git",
+    "action": "pr_review",
+    "payload": {
+      "pr_id": 62,
+      "review_status": "APPROVED"
+    }
+  },
+  {
+    "id": "3ae2d8b1-6c41-5e85-a6bb-d8b80a93c45e",
+    "timestamp": "2026-09-24T13:25:00",
+    "developer": "dev_sanket",
+    "project": "Project-Alpha",
+    "event_type": "git",
+    "action": "commit",
+    "payload": {
+      "commit_hash": "462eb7c2",
+      "branch": "dev_sanket/feature-work",
+      "message": "feat(ALPHA-103): routine updates and tests"
+    }
+  },
+  {
+    "id": "8d2d82ec-2b6e-5975-b0cd-96228b37acbf",
+    "timestamp": "2026-09-24T14:21:00",
+    "developer": "dev_sanket",
+    "project": "Project-Alpha",
+    "event_type": "git",
+    "action": "pr_review",
+    "payload": {
+      "pr_id": 55,
+      "review_status": "APPROVED"
+    }
+  },
+  {
+    "id": "3545cc9f-724b-506b-a10e-f5aa43154fdc",
+    "timestamp": "2026-09-24T15:05:00",
+    "developer": "dev_sanket",
+    "project": "Project-Alpha",
+    "event_type": "pi_agent",
+    "action": "pi_session_start",
+    "payload": {
+      "session_id": "pi_sess_dev_sanket_11",
+      "agent_mode": "developer_assistant"
+    }
+  },
+  {
+    "id": "9f350b36-668c-5abb-8b2b-7a06e04b1788",
+    "timestamp": "2026-09-24T15:05:00",
+    "developer": "dev_alex",
+    "project": "Project-Alpha",
+    "event_type": "pi_agent",
+    "action": "pi_session_start",
+    "payload": {
+      "session_id": "pi_sess_dev_alex_11",
+      "agent_mode": "developer_assistant"
+    }
+  },
+  {
+    "id": "5ae9c458-7107-5b2f-a18d-b7cdd7f0de82",
+    "timestamp": "2026-09-24T15:12:00",
+    "developer": "dev_sanket",
+    "project": "Project-Alpha",
+    "event_type": "pi_agent",
+    "action": "pi_tool_call",
+    "payload": {
+      "session_id": "pi_sess_dev_sanket_11",
+      "tool": "run_unit_tests",
+      "arguments": {
+        "ticket": "ALPHA-103"
+      }
+    }
+  },
+  {
+    "id": "171c3a15-8ca4-5f58-8fd0-4c702f316e74",
+    "timestamp": "2026-09-24T15:13:00",
+    "developer": "dev_alex",
+    "project": "Project-Alpha",
+    "event_type": "pi_agent",
+    "action": "pi_tool_call",
+    "payload": {
+      "session_id": "pi_sess_dev_alex_11",
+      "tool": "run_linter",
+      "arguments": {
+        "ticket": "ALPHA-102"
+      }
+    }
+  },
+  {
+    "id": "6d211019-7412-5053-a8bc-15dfbcd0863d",
+    "timestamp": "2026-09-24T15:21:00",
+    "developer": "dev_alex",
+    "project": "Project-Alpha",
+    "event_type": "pi_agent",
+    "action": "pi_session_end",
+    "payload": {
+      "session_id": "pi_sess_dev_alex_11",
+      "status": "completed"
+    }
+  },
+  {
+    "id": "9c4254b7-8c6f-5948-9d7d-7b988282e90b",
+    "timestamp": "2026-09-24T15:23:00",
+    "developer": "dev_sanket",
+    "project": "Project-Alpha",
+    "event_type": "pi_agent",
+    "action": "pi_session_end",
+    "payload": {
+      "session_id": "pi_sess_dev_sanket_11",
+      "status": "completed"
+    }
+  },
+  {
+    "id": "05aebc30-c293-5363-8dbc-51ac65c9aa6e",
+    "timestamp": "2026-09-25T09:05:00",
+    "developer": "dev_elena",
+    "project": "Project-Beta",
+    "event_type": "jira",
+    "action": "ticket_transition",
+    "payload": {
+      "ticket_id": "BETA-204",
+      "transition": "DONE",
+      "comment": "Updated ticket status to DONE"
+    }
+  },
+  {
+    "id": "b4021486-81e0-5aab-8f6f-7e6619b1429d",
+    "timestamp": "2026-09-25T10:06:00",
+    "developer": "dev_alex",
+    "project": "Project-Alpha",
+    "event_type": "jira",
+    "action": "ticket_transition",
+    "payload": {
+      "ticket_id": "ALPHA-103",
+      "transition": "IN_PROGRESS",
+      "comment": "Updated ticket status to IN_PROGRESS"
+    }
+  },
+  {
+    "id": "0afe1bff-3f85-51e7-93a2-06526525add9",
+    "timestamp": "2026-09-25T11:13:00",
+    "developer": "dev_sanket",
+    "project": "Project-Alpha",
+    "event_type": "jira",
+    "action": "ticket_transition",
+    "payload": {
+      "ticket_id": "ALPHA-101",
+      "transition": "BLOCKED",
+      "comment": "Updated ticket status to BLOCKED"
+    }
+  },
+  {
+    "id": "0e684574-193c-5148-9ab0-22660164bac5",
+    "timestamp": "2026-09-25T12:42:00",
+    "developer": "dev_sanket",
+    "project": "Project-Alpha",
+    "event_type": "git",
+    "action": "commit",
+    "payload": {
+      "commit_hash": "d9410b3b",
+      "branch": "dev_sanket/feature-work",
+      "message": "feat(ALPHA-101): routine updates and tests"
+    }
+  },
+  {
+    "id": "70e726ae-7bc2-5214-bd04-d60354889405",
+    "timestamp": "2026-09-25T12:44:00",
+    "developer": "dev_elena",
+    "project": "Project-Beta",
+    "event_type": "git",
+    "action": "commit",
+    "payload": {
+      "commit_hash": "3bd5659e",
+      "branch": "dev_elena/feature-work",
+      "message": "feat(BETA-204): routine updates and tests"
+    }
+  },
+  {
+    "id": "c3ba3bd5-c342-5c11-a89a-5ff4e15e30ac",
+    "timestamp": "2026-09-25T13:27:00",
+    "developer": "dev_elena",
+    "project": "Project-Beta",
+    "event_type": "git",
+    "action": "pr_review",
+    "payload": {
+      "pr_id": 56,
+      "review_status": "APPROVED"
+    }
+  },
+  {
+    "id": "7f35fcc7-8d64-5566-be45-01d8de1a4578",
+    "timestamp": "2026-09-25T13:37:00",
+    "developer": "dev_alex",
+    "project": "Project-Alpha",
+    "event_type": "git",
+    "action": "commit",
+    "payload": {
+      "commit_hash": "2ce6904b",
+      "branch": "dev_alex/feature-work",
+      "message": "feat(ALPHA-103): routine updates and tests"
+    }
+  },
+  {
+    "id": "73537cf6-9186-58c0-89c1-333b88f4d93b",
+    "timestamp": "2026-09-25T14:05:00",
+    "developer": "dev_elena",
+    "project": "Project-Beta",
+    "event_type": "pi_agent",
+    "action": "pi_session_start",
+    "payload": {
+      "session_id": "pi_sess_dev_elena_12",
+      "agent_mode": "developer_assistant"
+    }
+  },
+  {
+    "id": "b3cd2231-bce2-52bf-8664-5915a96d1784",
+    "timestamp": "2026-09-25T14:11:00",
+    "developer": "dev_elena",
+    "project": "Project-Beta",
+    "event_type": "pi_agent",
+    "action": "pi_tool_call",
+    "payload": {
+      "session_id": "pi_sess_dev_elena_12",
+      "tool": "run_unit_tests",
+      "arguments": {
+        "ticket": "BETA-204"
+      }
+    }
+  },
+  {
+    "id": "cff1ab17-7f46-51bd-a6e9-5ff02004e1e5",
+    "timestamp": "2026-09-25T14:17:00",
+    "developer": "dev_elena",
+    "project": "Project-Beta",
+    "event_type": "pi_agent",
+    "action": "pi_session_end",
+    "payload": {
+      "session_id": "pi_sess_dev_elena_12",
+      "status": "completed"
+    }
+  },
+  {
+    "id": "d9692bfa-c0c6-59ae-bf51-79f63debe567",
+    "timestamp": "2026-09-25T15:40:00",
+    "developer": "dev_sanket",
+    "project": "Project-Alpha",
+    "event_type": "git",
+    "action": "pr_review",
+    "payload": {
+      "pr_id": 96,
+      "review_status": "APPROVED"
+    }
+  },
+  {
+    "id": "c430610f-7d88-5783-b34c-d29beeebe2d0",
+    "timestamp": "2026-09-25T16:05:00",
+    "developer": "dev_sanket",
+    "project": "Project-Alpha",
+    "event_type": "pi_agent",
+    "action": "pi_session_start",
+    "payload": {
+      "session_id": "pi_sess_dev_sanket_12",
+      "agent_mode": "developer_assistant"
+    }
+  },
+  {
+    "id": "fc75e453-f79a-5605-8a04-c488255d7339",
+    "timestamp": "2026-09-25T16:12:00",
+    "developer": "dev_sanket",
+    "project": "Project-Alpha",
+    "event_type": "pi_agent",
+    "action": "pi_tool_call",
+    "payload": {
+      "session_id": "pi_sess_dev_sanket_12",
+      "tool": "search_code",
+      "arguments": {
+        "ticket": "ALPHA-101"
+      }
+    }
+  },
+  {
+    "id": "bfe25793-2b26-5a0a-95b6-3b642b3cc826",
+    "timestamp": "2026-09-25T16:22:00",
+    "developer": "dev_sanket",
+    "project": "Project-Alpha",
+    "event_type": "pi_agent",
+    "action": "pi_session_end",
+    "payload": {
+      "session_id": "pi_sess_dev_sanket_12",
+      "status": "completed"
+    }
+  },
+  {
+    "id": "d8299071-9595-50c2-9687-14d3e76e02bb",
+    "timestamp": "2026-09-25T16:37:00",
+    "developer": "dev_alex",
+    "project": "Project-Alpha",
+    "event_type": "git",
+    "action": "pr_review",
+    "payload": {
+      "pr_id": 50,
+      "review_status": "APPROVED"
+    }
+  },
+  {
+    "id": "267fdfab-f9a5-547d-b6e5-eebc2d04ca47",
+    "timestamp": "2026-09-25T17:05:00",
+    "developer": "dev_alex",
+    "project": "Project-Alpha",
+    "event_type": "pi_agent",
+    "action": "pi_session_start",
+    "payload": {
+      "session_id": "pi_sess_dev_alex_12",
+      "agent_mode": "developer_assistant"
+    }
+  },
+  {
+    "id": "0b99dd38-cec4-59f0-9ae0-b352d689afb7",
+    "timestamp": "2026-09-25T17:11:00",
+    "developer": "dev_alex",
+    "project": "Project-Alpha",
+    "event_type": "pi_agent",
+    "action": "pi_tool_call",
+    "payload": {
+      "session_id": "pi_sess_dev_alex_12",
+      "tool": "run_linter",
+      "arguments": {
+        "ticket": "ALPHA-103"
+      }
+    }
+  },
+  {
+    "id": "f9a696b8-b6d8-5ab4-9803-51aba520e9a3",
+    "timestamp": "2026-09-25T17:17:00",
+    "developer": "dev_alex",
+    "project": "Project-Alpha",
+    "event_type": "pi_agent",
+    "action": "pi_session_end",
+    "payload": {
+      "session_id": "pi_sess_dev_alex_12",
+      "status": "completed"
+    }
+  },
+  {
+    "id": "d0d4cff3-e8bd-5817-aa9d-618a2f28d65e",
+    "timestamp": "2026-09-26T09:21:00",
+    "developer": "dev_sanket",
+    "project": "Project-Alpha",
+    "event_type": "jira",
+    "action": "ticket_transition",
+    "payload": {
+      "ticket_id": "ALPHA-103",
+      "transition": "BLOCKED",
+      "comment": "Updated ticket status to BLOCKED"
+    }
+  },
+  {
+    "id": "09e05eab-957a-59b5-8b27-e143b10ee54a",
+    "timestamp": "2026-09-26T11:10:00",
+    "developer": "dev_alex",
+    "project": "Project-Alpha",
+    "event_type": "jira",
+    "action": "ticket_transition",
+    "payload": {
+      "ticket_id": "ALPHA-104",
+      "transition": "DONE",
+      "comment": "Updated ticket status to DONE"
+    }
+  },
+  {
+    "id": "7a9fe936-76bb-5898-9cab-0ea3bd341bae",
+    "timestamp": "2026-09-26T12:19:00",
+    "developer": "dev_elena",
+    "project": "Project-Beta",
+    "event_type": "jira",
+    "action": "ticket_transition",
+    "payload": {
+      "ticket_id": "BETA-203",
+      "transition": "BLOCKED",
+      "comment": "Updated ticket status to BLOCKED"
+    }
+  },
+  {
+    "id": "79b330a0-1bd2-51ff-97e1-441ce25a7415",
+    "timestamp": "2026-09-26T12:29:00",
+    "developer": "dev_alex",
+    "project": "Project-Alpha",
+    "event_type": "git",
+    "action": "commit",
+    "payload": {
+      "commit_hash": "4c618144",
+      "branch": "dev_alex/feature-work",
+      "message": "feat(ALPHA-104): routine updates and tests"
+    }
+  },
+  {
+    "id": "824f00e9-e525-5217-8b9d-ffb0ce68c7f3",
+    "timestamp": "2026-09-26T13:38:00",
+    "developer": "dev_elena",
+    "project": "Project-Beta",
+    "event_type": "git",
+    "action": "commit",
+    "payload": {
+      "commit_hash": "b54b7f58",
+      "branch": "dev_elena/feature-work",
+      "message": "feat(BETA-203): routine updates and tests"
+    }
+  },
+  {
+    "id": "80b1be28-de25-557f-ae2d-d3a6fe8a5168",
+    "timestamp": "2026-09-26T14:36:00",
+    "developer": "dev_sanket",
+    "project": "Project-Alpha",
+    "event_type": "git",
+    "action": "commit",
+    "payload": {
+      "commit_hash": "e5b0595d",
+      "branch": "dev_sanket/feature-work",
+      "message": "feat(ALPHA-103): routine updates and tests"
+    }
+  },
+  {
+    "id": "58daeb1d-0af2-53d4-8ad3-263bb07dd479",
+    "timestamp": "2026-09-26T14:40:00",
+    "developer": "dev_alex",
+    "project": "Project-Alpha",
+    "event_type": "git",
+    "action": "pr_review",
+    "payload": {
+      "pr_id": 80,
+      "review_status": "APPROVED"
+    }
+  },
+  {
+    "id": "b4423d05-5ad8-59b2-b774-d334841057b1",
+    "timestamp": "2026-09-26T15:28:00",
+    "developer": "dev_elena",
+    "project": "Project-Beta",
+    "event_type": "git",
+    "action": "pr_review",
+    "payload": {
+      "pr_id": 75,
+      "review_status": "APPROVED"
+    }
+  },
+  {
+    "id": "e0031fbc-909c-5e2b-a12d-901d7286551a",
+    "timestamp": "2026-09-26T16:05:00",
+    "developer": "dev_alex",
+    "project": "Project-Alpha",
+    "event_type": "pi_agent",
+    "action": "pi_session_start",
+    "payload": {
+      "session_id": "pi_sess_dev_alex_13",
+      "agent_mode": "developer_assistant"
+    }
+  },
+  {
+    "id": "5b6b6861-cb76-5f1e-972a-8f9640495a83",
+    "timestamp": "2026-09-26T16:05:00",
+    "developer": "dev_elena",
+    "project": "Project-Beta",
+    "event_type": "pi_agent",
+    "action": "pi_session_start",
+    "payload": {
+      "session_id": "pi_sess_dev_elena_13",
+      "agent_mode": "developer_assistant"
+    }
+  },
+  {
+    "id": "3b27e59d-8f64-5550-8150-873263d1a649",
+    "timestamp": "2026-09-26T16:08:00",
+    "developer": "dev_alex",
+    "project": "Project-Alpha",
+    "event_type": "pi_agent",
+    "action": "pi_tool_call",
+    "payload": {
+      "session_id": "pi_sess_dev_alex_13",
+      "tool": "run_linter",
+      "arguments": {
+        "ticket": "ALPHA-104"
+      }
+    }
+  },
+  {
+    "id": "f5f0da63-a4a8-5f72-bbfd-0d02a5b06818",
+    "timestamp": "2026-09-26T16:11:00",
+    "developer": "dev_elena",
+    "project": "Project-Beta",
+    "event_type": "pi_agent",
+    "action": "pi_tool_call",
+    "payload": {
+      "session_id": "pi_sess_dev_elena_13",
+      "tool": "run_unit_tests",
+      "arguments": {
+        "ticket": "BETA-203"
+      }
+    }
+  },
+  {
+    "id": "8d0d352c-9962-5d5a-9939-19d2d582bf93",
+    "timestamp": "2026-09-26T16:17:00",
+    "developer": "dev_alex",
+    "project": "Project-Alpha",
+    "event_type": "pi_agent",
+    "action": "pi_session_end",
+    "payload": {
+      "session_id": "pi_sess_dev_alex_13",
+      "status": "completed"
+    }
+  },
+  {
+    "id": "7a320e1a-ed4e-536b-8cfc-37811ccff1d3",
+    "timestamp": "2026-09-26T16:18:00",
+    "developer": "dev_elena",
+    "project": "Project-Beta",
+    "event_type": "pi_agent",
+    "action": "pi_session_end",
+    "payload": {
+      "session_id": "pi_sess_dev_elena_13",
+      "status": "completed"
+    }
+  },
+  {
+    "id": "aa9dd190-1ab5-521c-925c-d3cdec720655",
+    "timestamp": "2026-09-26T16:35:00",
+    "developer": "dev_sanket",
+    "project": "Project-Alpha",
+    "event_type": "git",
+    "action": "pr_review",
+    "payload": {
+      "pr_id": 61,
+      "review_status": "APPROVED"
+    }
+  },
+  {
+    "id": "b9484b62-28a5-5a19-9e9c-b4025bdc951c",
+    "timestamp": "2026-09-26T17:05:00",
+    "developer": "dev_sanket",
+    "project": "Project-Alpha",
+    "event_type": "pi_agent",
+    "action": "pi_session_start",
+    "payload": {
+      "session_id": "pi_sess_dev_sanket_13",
+      "agent_mode": "developer_assistant"
+    }
+  },
+  {
+    "id": "20a604c4-705d-56ea-96cd-c3a4c8762421",
+    "timestamp": "2026-09-26T17:13:00",
+    "developer": "dev_sanket",
+    "project": "Project-Alpha",
+    "event_type": "pi_agent",
+    "action": "pi_tool_call",
+    "payload": {
+      "session_id": "pi_sess_dev_sanket_13",
+      "tool": "run_unit_tests",
+      "arguments": {
+        "ticket": "ALPHA-103"
+      }
+    }
+  },
+  {
+    "id": "1b302c2d-96cf-50eb-b0d2-bb9c7789f7e7",
+    "timestamp": "2026-09-26T17:22:00",
+    "developer": "dev_sanket",
+    "project": "Project-Alpha",
+    "event_type": "pi_agent",
+    "action": "pi_session_end",
+    "payload": {
+      "session_id": "pi_sess_dev_sanket_13",
+      "status": "completed"
+    }
+  },
+  {
+    "id": "a27b2fc1-2f56-54d5-95e1-2c1890b4b750",
+    "timestamp": "2026-09-27T09:10:00",
+    "developer": "dev_elena",
+    "project": "Project-Beta",
+    "event_type": "jira",
+    "action": "ticket_transition",
+    "payload": {
+      "ticket_id": "BETA-202",
+      "transition": "DONE",
+      "comment": "Updated ticket status to DONE"
+    }
+  },
+  {
+    "id": "cae0b492-2a20-5048-9cbb-df82a8dd3861",
+    "timestamp": "2026-09-27T09:18:00",
+    "developer": "dev_alex",
+    "project": "Project-Alpha",
+    "event_type": "jira",
+    "action": "ticket_transition",
+    "payload": {
+      "ticket_id": "ALPHA-104",
+      "transition": "DONE",
+      "comment": "Updated ticket status to DONE"
+    }
+  },
+  {
+    "id": "722162fb-6ff3-501b-b1ca-d25f31a344ee",
+    "timestamp": "2026-09-27T10:07:00",
+    "developer": "dev_sanket",
+    "project": "Project-Alpha",
+    "event_type": "jira",
+    "action": "ticket_transition",
+    "payload": {
+      "ticket_id": "ALPHA-103",
+      "transition": "IN_PROGRESS",
+      "comment": "Updated ticket status to IN_PROGRESS"
+    }
+  },
+  {
+    "id": "531e817b-68f9-5ab6-b5b3-0f1beaabf898",
+    "timestamp": "2026-09-27T10:43:00",
+    "developer": "dev_elena",
+    "project": "Project-Beta",
+    "event_type": "git",
+    "action": "commit",
+    "payload": {
+      "commit_hash": "c7175a7b",
+      "branch": "dev_elena/feature-work",
+      "message": "feat(BETA-202): routine updates and tests"
+    }
+  },
+  {
+    "id": "63569501-49ce-5a56-bcee-0f3a86b4443b",
+    "timestamp": "2026-09-27T12:22:00",
+    "developer": "dev_alex",
+    "project": "Project-Alpha",
+    "event_type": "git",
+    "action": "commit",
+    "payload": {
+      "commit_hash": "8b9cadac",
+      "branch": "dev_alex/feature-work",
+      "message": "feat(ALPHA-104): routine updates and tests"
+    }
+  },
+  {
+    "id": "1fe28149-254d-55a7-9999-7cf6c690ae3c",
+    "timestamp": "2026-09-27T12:44:00",
+    "developer": "dev_elena",
+    "project": "Project-Beta",
+    "event_type": "git",
+    "action": "pr_review",
+    "payload": {
+      "pr_id": 16,
+      "review_status": "APPROVED"
+    }
+  },
+  {
+    "id": "553ee513-5cc2-5555-a015-463d595c88eb",
+    "timestamp": "2026-09-27T13:29:00",
+    "developer": "dev_sanket",
+    "project": "Project-Alpha",
+    "event_type": "git",
+    "action": "commit",
+    "payload": {
+      "commit_hash": "2621f68b",
+      "branch": "dev_sanket/feature-work",
+      "message": "feat(ALPHA-103): routine updates and tests"
+    }
+  },
+  {
+    "id": "9094341a-a139-5676-a751-55598452d1bd",
+    "timestamp": "2026-09-27T13:39:00",
+    "developer": "dev_alex",
+    "project": "Project-Alpha",
+    "event_type": "git",
+    "action": "pr_review",
+    "payload": {
+      "pr_id": 73,
+      "review_status": "APPROVED"
+    }
+  },
+  {
+    "id": "05953b83-0c1e-5442-a148-faba0e0d279d",
+    "timestamp": "2026-09-27T14:29:00",
+    "developer": "dev_sanket",
+    "project": "Project-Alpha",
+    "event_type": "git",
+    "action": "pr_review",
+    "payload": {
+      "pr_id": 35,
+      "review_status": "APPROVED"
+    }
+  },
+  {
+    "id": "00d25311-8f8d-52d6-bf43-ab3b98b9d2be",
+    "timestamp": "2026-09-27T15:05:00",
+    "developer": "dev_elena",
+    "project": "Project-Beta",
+    "event_type": "pi_agent",
+    "action": "pi_session_start",
+    "payload": {
+      "session_id": "pi_sess_dev_elena_14",
+      "agent_mode": "developer_assistant"
+    }
+  },
+  {
+    "id": "7beecdc3-e7ed-525d-99b8-c1ad23b67c66",
+    "timestamp": "2026-09-27T15:12:00",
+    "developer": "dev_elena",
+    "project": "Project-Beta",
+    "event_type": "pi_agent",
+    "action": "pi_tool_call",
+    "payload": {
+      "session_id": "pi_sess_dev_elena_14",
+      "tool": "search_code",
+      "arguments": {
+        "ticket": "BETA-202"
+      }
+    }
+  },
+  {
+    "id": "deb6b174-9d7f-5547-b019-ca079e2e4bad",
+    "timestamp": "2026-09-27T15:20:00",
+    "developer": "dev_elena",
+    "project": "Project-Beta",
+    "event_type": "pi_agent",
+    "action": "pi_session_end",
+    "payload": {
+      "session_id": "pi_sess_dev_elena_14",
+      "status": "completed"
+    }
+  },
+  {
+    "id": "ac5d8e0e-fd8c-56f0-a3e4-92eca60cce4d",
+    "timestamp": "2026-09-27T16:05:00",
+    "developer": "dev_sanket",
+    "project": "Project-Alpha",
+    "event_type": "pi_agent",
+    "action": "pi_session_start",
+    "payload": {
+      "session_id": "pi_sess_dev_sanket_14",
+      "agent_mode": "developer_assistant"
+    }
+  },
+  {
+    "id": "c360382b-5a4d-50e5-bbcb-d468cd034762",
+    "timestamp": "2026-09-27T16:05:00",
+    "developer": "dev_alex",
+    "project": "Project-Alpha",
+    "event_type": "pi_agent",
+    "action": "pi_session_start",
+    "payload": {
+      "session_id": "pi_sess_dev_alex_14",
+      "agent_mode": "developer_assistant"
+    }
+  },
+  {
+    "id": "741d346d-0970-5362-9cc6-25ab2079b361",
+    "timestamp": "2026-09-27T16:09:00",
+    "developer": "dev_sanket",
+    "project": "Project-Alpha",
+    "event_type": "pi_agent",
+    "action": "pi_tool_call",
+    "payload": {
+      "session_id": "pi_sess_dev_sanket_14",
+      "tool": "search_code",
+      "arguments": {
+        "ticket": "ALPHA-103"
+      }
+    }
+  },
+  {
+    "id": "c36c9e54-6692-5989-951c-9b0af26693c7",
+    "timestamp": "2026-09-27T16:11:00",
+    "developer": "dev_alex",
+    "project": "Project-Alpha",
+    "event_type": "pi_agent",
+    "action": "pi_tool_call",
+    "payload": {
+      "session_id": "pi_sess_dev_alex_14",
+      "tool": "search_code",
+      "arguments": {
+        "ticket": "ALPHA-104"
+      }
+    }
+  },
+  {
+    "id": "c5aae278-b063-54b3-a5c4-16458d4dd3b3",
+    "timestamp": "2026-09-27T16:14:00",
+    "developer": "dev_sanket",
+    "project": "Project-Alpha",
+    "event_type": "pi_agent",
+    "action": "pi_session_end",
+    "payload": {
+      "session_id": "pi_sess_dev_sanket_14",
+      "status": "completed"
+    }
+  },
+  {
+    "id": "29f63cb7-7551-5492-b984-6d5634424256",
+    "timestamp": "2026-09-27T16:19:00",
+    "developer": "dev_alex",
+    "project": "Project-Alpha",
+    "event_type": "pi_agent",
+    "action": "pi_session_end",
+    "payload": {
+      "session_id": "pi_sess_dev_alex_14",
+      "status": "completed"
+    }
+  }
+]

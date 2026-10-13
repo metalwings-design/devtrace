@@ -1,0 +1,6 @@
+dspy-ai
+python-dotenv
+pytest
+supabase
+streamlit
+pandas
